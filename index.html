@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data + AI World Tour London 2026 Agenda</title>
+<meta name="description" content="Unofficial attendee guide to the Data + AI World Tour London, 11 Nov 2026: all 45 sessions, 95 speakers, 57 companies and 76 sponsors, with room map, live view and calendar export.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Data + AI World Tour London 2026: full agenda, speakers and companies">
+<meta property="og:description" content="All 45 sessions, 95 speakers, 57 companies and 76 sponsors on one page, with room map, live view and calendar export. Unofficial attendee guide.">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* layout: navy header band → room × time overview → session list with speakers; "My day" opens as a panel */
+  --navy:#072146; --blue:#004481; --sky:#1973B8; --lava:#FF3621;
+  --bg:#F6F5F1; --surface:#FFFFFF; --ink:#0B1B2E; --muted:#56657A; --line:#DCE1E8; --bad:#D0263D;
+  --kc:#072146; --kt:#E2E8F1; --ko:#FFFFFF;
+  --bc:#1464A5; --bt:#E3EEF8; --bo:#FFFFFF;
+  --lc:#C2410C; --lt:#FDEBDF; --lo:#FFFFFF;
+  --tc:#027A7A; --tt:#DDF3F2; --to:#FFFFFF;
+  --ic:#5B4BC4; --it:#ECE9FA; --io:#FFFFFF;
+  --link:#004481; --water:#BCD8EE; --land:#ECEAE3;
+  --display:"DM Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#06101D; --surface:#0D1A2C; --ink:#E8EEF6; --muted:#97A6BA; --line:#1F3048; --bad:#FF6B7F;
+    --kc:#C9D6EA; --kt:#16253B; --ko:#06101D;
+    --bc:#7DB7EC; --bt:#11263F; --bo:#06101D;
+    --lc:#FF9A6B; --lt:#33190D; --lo:#06101D;
+    --tc:#5ED3CF; --tt:#0C2C2E; --to:#06101D;
+    --ic:#B3A8F2; --it:#211C40; --io:#06101D;
+    --link:#7DB7EC; --water:#163A5C; --land:#0B1726;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#06101D; --surface:#0D1A2C; --ink:#E8EEF6; --muted:#97A6BA; --line:#1F3048; --bad:#FF6B7F;
+  --kc:#C9D6EA; --kt:#16253B; --ko:#06101D;
+  --bc:#7DB7EC; --bt:#11263F; --bo:#06101D;
+  --lc:#FF9A6B; --lt:#33190D; --lo:#06101D;
+  --tc:#5ED3CF; --tt:#0C2C2E; --to:#06101D;
+  --ic:#B3A8F2; --it:#211C40; --io:#06101D;
+  --link:#7DB7EC; --water:#163A5C; --land:#0B1726;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--display);font-size:15px;line-height:1.5}
+button,input,select{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--lava);outline-offset:2px}
+a{color:var(--link)}
+.k-k{--c:var(--kc);--t:var(--kt);--o:var(--ko)}
+.k-b{--c:var(--bc);--t:var(--bt);--o:var(--bo)}
+.k-l{--c:var(--lc);--t:var(--lt);--o:var(--lo)}
+.k-t{--c:var(--tc);--t:var(--tt);--o:var(--to)}
+.k-i{--c:var(--ic);--t:var(--it);--o:var(--io)}
+
+/* header band: one visual world, same in both themes */
+.band{background:var(--navy);color:#fff;border-top:4px solid var(--lava)}
+.band-in{max-width:1640px;margin:0 auto;padding:28px 20px 26px;display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8EC8FF}
+h1{margin:0;font-size:34px;line-height:1.08;font-weight:800;letter-spacing:-.02em;text-wrap:balance;max-width:24ch}
+h1 em{font-style:normal;color:var(--lava)}
+.sub{color:#C4D3E6;font-size:15px;max-width:70ch}
+.stats{display:flex;flex-wrap:wrap;gap:22px;margin-top:6px}
+.stat b{display:block;font-size:24px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:#A9BCD4;text-transform:uppercase;letter-spacing:.05em}
+.checked{font-size:12.5px;color:#A9BCD4}
+.checked b{color:#fff;font-weight:600}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.fact{border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:5px 12px;font-size:13px;color:#E3ECF7}
+.fact b{color:#fff}
+
+.wrap{max-width:1640px;margin:0 auto;padding:22px 20px 96px;display:grid;grid-template-columns:minmax(0,1fr);gap:26px}
+.wrap>*{min-width:0}
+body{overflow-x:clip}
+[id]{scroll-margin-top:64px}
+h2{margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px;margin-bottom:10px}
+.sec-head p{margin:0;color:var(--muted);font-size:14px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px}
+
+/* overview grid */
+.legend{display:flex;flex-wrap:wrap;gap:10px 16px;padding:12px 14px;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);align-items:center}
+.sw{display:inline-flex;align-items:center;gap:6px}
+.sw i{width:12px;height:12px;border-radius:3px;background:var(--t);border-left:3px solid var(--c);display:inline-block}
+.gridbox{overflow:auto;max-height:78vh;position:relative}
+.ghead,.gbody{display:flex;width:max-content;min-width:100%}
+.ghead{position:sticky;top:0;z-index:4;background:var(--surface);border-bottom:1px solid var(--line)}
+.corner{width:56px;flex:none;position:sticky;left:0;z-index:5;background:var(--surface)}
+.rh{width:172px;flex:none;padding:8px;border-left:1px solid var(--line)}
+.rh b{display:block;font-size:13px;line-height:1.2}
+.rh span{display:block;font-size:11px;color:var(--muted);line-height:1.25}
+.tcol{width:56px;flex:none;position:sticky;left:0;z-index:3;background:var(--surface);border-right:1px solid var(--line)}
+.tl{position:absolute;left:6px;font-family:var(--mono);font-size:10.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.col{width:172px;flex:none;position:relative;border-left:1px solid var(--line);background-image:repeating-linear-gradient(to bottom,var(--line) 0,var(--line) 1px,transparent 1px,transparent 72px)}
+.blk{position:absolute;left:4px;right:4px;text-align:left;background:var(--t);border:1px solid transparent;border-left:3px solid var(--c);border-radius:6px;padding:4px 6px;cursor:pointer;overflow:hidden;display:flex;flex-direction:column;gap:1px;transition:opacity .15s}
+.blk:hover{border-color:var(--c)}
+.blk .bt{font-family:var(--mono);font-size:10px;color:var(--muted);line-height:13px}
+.blk .bn{font-size:11.5px;line-height:14.4px;font-weight:600;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+.blk.short .bt{display:none}
+.blk.sel{background:var(--c);color:var(--o);border-color:var(--c)}
+.blk.sel .bt{color:var(--o);opacity:.85}
+.blk.blocked{opacity:.38}
+.blk.blocked:hover{opacity:.8}
+.blk.clash{outline:2px solid var(--bad);outline-offset:-1px;background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(208,38,61,.3) 6px 9px)}
+.blk.dim{opacity:.18}
+.extra{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px;border-top:1px solid var(--line);font-size:13px}
+.extra .x{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--bg)}
+.extra .x .bt{font-family:var(--mono);font-size:11px;margin-right:6px}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.fchip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;font-size:13px;font-weight:600;display:inline-flex;gap:6px;align-items:center}
+.fchip i{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block}
+.fchip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.fchip[aria-pressed="true"] i{background:#fff}
+.finput{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 10px;font-size:14px;min-width:0}
+#q{flex:1 1 220px;max-width:340px}
+#co{flex:0 1 240px}
+#lvl{flex:0 1 150px}
+#tech{flex:0 1 210px}
+.count{font-size:13px;color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums}
+
+/* session list */
+.slots{display:grid;gap:22px}
+.slot h3{margin:0 0 8px;font-family:var(--mono);font-size:13px;font-weight:500;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.slot h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:14px 16px;display:grid;gap:8px;align-content:start;scroll-margin-top:64px}
+.card.flash{box-shadow:0 0 0 3px var(--lava)}
+.card.picked{border-color:var(--c);border-top-color:var(--c);background:linear-gradient(var(--t),var(--t)) top/100% 4px no-repeat,var(--surface)}
+.c-top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--muted)}
+.pill{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--t);color:var(--c);border-radius:999px;padding:2px 9px}
+.c-time{font-family:var(--mono);font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums}
+.card h4{margin:0;font-size:17px;line-height:1.28;font-weight:700;text-wrap:balance}
+.spons{font-size:12px;color:var(--muted)}
+.c-d{margin:0;font-size:14px;color:var(--muted)}
+.cos{display:flex;flex-wrap:wrap;gap:6px}
+.co{font-size:12px;font-weight:600;border:1px solid var(--line);border-radius:6px;padding:2px 8px;background:var(--bg);cursor:pointer}
+.co:hover{border-color:var(--ink)}
+.spk{list-style:none;margin:0;padding:0;display:grid;gap:6px;border-top:1px solid var(--line);padding-top:8px}
+.spk li{display:grid;grid-template-columns:auto 1fr;gap:0 10px;align-items:start}
+.av{width:30px;height:30px;border-radius:50%;background:var(--t);color:var(--c);font-size:11px;font-weight:800;display:grid;place-items:center;grid-row:span 2}
+.spk a{font-weight:700;font-size:14px;text-decoration:none;color:var(--ink)}
+.spk a:hover{color:var(--link);text-decoration:underline}
+.spk a .in{font-size:10px;font-weight:800;color:#fff;background:#0A66C2;border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:2px}
+.spk .role{font-size:12px;color:var(--muted);line-height:1.35}
+.nospk{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
+.c-act{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:2px}
+.btn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 11px;cursor:pointer;font-size:13px;font-weight:600}
+.btn:hover{border-color:var(--ink)}
+.btn.on{background:var(--c);border-color:var(--c);color:var(--o)}
+.btn.primary{background:var(--lava);border-color:var(--lava);color:#fff}
+.c-act a{font-size:13px;font-weight:600}
+.warn{font-size:12px;color:var(--bad);font-weight:700}
+.none{color:var(--muted);font-size:14px}
+
+/* my day */
+.fab{position:fixed;right:18px;bottom:18px;z-index:15;background:var(--navy);color:#fff;border:0;border-radius:999px;padding:12px 18px;font-weight:700;cursor:pointer;box-shadow:0 10px 30px rgba(7,33,70,.35);display:flex;gap:8px;align-items:center}
+.fab b{background:var(--lava);border-radius:999px;padding:0 8px;font-variant-numeric:tabular-nums}
+.fab.has-clash b{background:var(--bad)}
+.drawer{position:fixed;right:16px;bottom:76px;width:min(420px,calc(100% - 32px));max-height:min(72vh,640px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--lava);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.28);padding:16px;z-index:16;display:grid;gap:10px}
+.drawer[hidden]{display:none}
+.d-top{display:flex;justify-content:space-between;align-items:center}
+.d-top h2{font-size:18px}
+.x-btn{background:none;border:0;font-size:22px;cursor:pointer;color:var(--muted);line-height:1}
+.day{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.it{display:flex;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:8px;background:var(--t)}
+.it.clash{border-color:var(--bad);border-left-color:var(--bad)}
+.itmain{flex:1;text-align:left;background:none;border:0;padding:8px 10px;cursor:pointer;display:grid;gap:1px;min-width:0}
+.itmain .time{font-family:var(--mono);font-size:12px;font-weight:500}
+.itmain .ttl{font-weight:700;font-size:14px;line-height:1.3}
+.itmain .room{font-size:12px;color:var(--muted)}
+.rm{background:none;border:0;border-left:1px solid var(--line);padding:0 12px;cursor:pointer;font-size:18px;color:var(--muted)}
+.cal-a{display:grid;place-items:center;border-left:1px solid var(--line);padding:0 10px;font-size:12px;font-weight:700;color:var(--link);text-decoration:none;text-align:center;line-height:1.2;min-width:62px}
+.cal-a:hover{background:var(--surface)}
+.cal{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.cal h3{margin:0;font-size:14px;font-weight:800}
+.cal p{margin:0;font-size:12px;color:var(--muted)}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{flex:1;border:0;border-left:1px solid var(--line);background:var(--surface);padding:7px 6px;font-size:12.5px;font-weight:700;cursor:pointer;line-height:1.2}
+.seg button:first-child{border-left:0}
+.seg button span{display:block;font-weight:500;font-size:11px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.seg button[aria-pressed="true"] span{color:#C4D3E6}
+.bulk{display:grid;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px}
+.bulk[hidden]{display:none}
+.bulk ol{margin:0;padding-left:18px;font-size:12px;color:var(--muted)}
+.gap{font-size:12px;color:var(--muted);padding:2px 10px;border-left:2px dashed var(--line);margin-left:6px}
+.d-act{display:flex;gap:8px;flex-wrap:wrap}
+#fallback{width:100%;min-height:150px;font-family:var(--mono);font-size:12px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:8px}
+.status{font-size:12px;color:var(--muted);min-height:1em}
+.empty{font-size:14px;color:var(--muted)}
+
+/* active filters */
+.active{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:-4px 0 14px}
+.active[hidden]{display:none}
+.af{display:inline-flex;align-items:center;gap:6px;background:var(--navy);color:#fff;border-radius:999px;padding:4px 5px 4px 12px;font-size:13px;font-weight:600}
+.af button{background:rgba(255,255,255,.2);border:0;color:#fff;border-radius:999px;width:22px;height:22px;cursor:pointer;line-height:1;font-size:15px}
+.clearall{background:var(--lava);border:0;color:#fff;font-weight:700;cursor:pointer;font-size:13px;border-radius:999px;padding:5px 12px}
+
+/* maps */
+.where{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}
+.mp{padding:14px 16px 16px;display:grid;grid-template-columns:minmax(0,1fr);gap:10px;align-content:start}
+.mp h3{margin:0;font-size:17px;font-weight:800}
+.cap{font-size:12px;color:var(--muted);margin:0}
+.svgbox{overflow-x:auto}
+.svgbox svg{display:block;width:100%;min-width:560px;height:auto}
+.svgbox svg text{font-family:var(--display);fill:var(--ink)}
+.f-bldg{fill:var(--bg);stroke:var(--muted);stroke-width:1.5}
+.f-blvd{fill:var(--kt)}
+.f-other{fill:var(--line)}
+.f-block{fill:none;stroke:var(--muted);stroke-width:1.2;stroke-dasharray:5 4}
+.f-water{fill:var(--water)}
+.svgbox .f-lbl{font-size:11px;font-weight:700;letter-spacing:.07em;fill:var(--muted)}
+.svgbox .f-small{font-size:11px;fill:var(--muted)}
+.chip-r{cursor:pointer}
+.chip-r rect{fill:var(--t);stroke:var(--c);stroke-width:1.5;transition:stroke-width .1s}
+.svgbox .chip-r .t1{font-size:14px;font-weight:700}
+.svgbox .chip-r .t2{font-size:11.5px;fill:var(--muted)}
+.chip-r:hover rect{stroke-width:3}
+.chip-r:focus{outline:none}
+.chip-r:focus-visible rect{stroke:var(--lava);stroke-width:3}
+.chip-r.on rect{fill:var(--c)}
+.svgbox .chip-r.on text{fill:var(--o)}
+.a-land{fill:var(--land)}
+.a-river{fill:none;stroke:var(--water);stroke-width:24;stroke-linecap:round;stroke-linejoin:round}
+.a-lea{fill:none;stroke:var(--water);stroke-width:7;stroke-linecap:round}
+.a-excel{fill:var(--kc)}
+.svgbox .a-excel-t{fill:var(--ko);font-size:13px;font-weight:800}
+.a-eliz{fill:none;stroke:#6950A1;stroke-width:6;stroke-linecap:round}
+.a-stn{fill:var(--surface);stroke:var(--ink);stroke-width:2.5}
+.a-pin{fill:var(--lava)}
+.after{border-top:4px solid var(--lava)}
+.ah-eyebrow{font-family:var(--mono);font-size:12px;color:var(--lava);letter-spacing:.06em;text-transform:uppercase}
+.ah-p{margin:0;font-size:14px;color:var(--muted);max-width:65ch}
+.ah-dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font-size:14px}
+.ah-dl dt{font-weight:700}
+.ah-dl dd{margin:0;color:var(--muted)}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;padding:7px 12px;font-size:13px;font-weight:700;text-decoration:none;color:var(--ink);background:var(--surface)}
+.lbtn:hover{border-color:var(--ink)}
+.lbtn.primary{background:var(--lava);border-color:var(--lava);color:#fff}
+.extra a.x{color:inherit;text-decoration:none;font-weight:600}
+.extra a.x:hover{border-color:var(--lava)}
+@media (max-width:1100px){ .where{grid-template-columns:1fr} }
+
+/* live panel */
+.live{padding:14px 18px;display:grid;gap:10px;border-left:6px solid var(--lava)}
+.lv-top{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
+.live h2{font-size:18px;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--lava);display:inline-block}
+.dot.pulse{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.lv-note{font-size:13px;color:var(--muted);margin:0}
+.lv-lbl{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:2px 0 0}
+.lv-row{display:flex;flex-wrap:wrap;gap:8px}
+.lv-chip{background:var(--t);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:8px;padding:6px 10px;text-align:left;cursor:pointer;display:grid;gap:1px;max-width:340px}
+.lv-chip:hover{border-color:var(--c)}
+.lv-chip b{font-size:13.5px;line-height:1.3}
+.lv-chip span{font-size:12px;color:var(--muted)}
+.lv-prev{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px}
+.lv-prev input{width:min(320px,100%)}
+.tagnow{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:999px;padding:2px 9px;background:var(--lava);color:#fff}
+.tagnext{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:999px;padding:2px 9px;border:1.5px solid var(--lava);color:var(--lava)}
+.gbody{position:relative}
+.nowline{position:absolute;left:0;right:0;height:2px;background:var(--lava);z-index:3;pointer-events:none}
+.nowline span{position:absolute;left:58px;top:-11px;background:var(--lava);color:#fff;font-family:var(--mono);font-size:11px;border-radius:4px;padding:1px 6px}
+@media (prefers-reduced-motion: reduce){ .dot.pulse{animation:none} }
+
+/* zoom */
+.zoomctl{display:inline-flex;gap:6px;align-items:center;margin-left:auto}
+.zoomctl button{min-width:34px;height:34px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:18px;font-weight:700;cursor:pointer;color:var(--ink);line-height:1}
+.zoomctl button:hover{border-color:var(--ink)}
+.zoomctl .zr{font-size:12px;padding:0 10px}
+.zoomctl span{font-family:var(--mono);font-size:12px;color:var(--muted);min-width:42px;text-align:center}
+.legend .zoomctl{margin-left:auto}
+.zhint{display:none;font-size:12px;color:var(--muted)}
+@media (pointer:coarse){ .zhint{display:inline} }
+.mp-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.gridbox,.svgbox{touch-action:pan-x pan-y}
+
+/* wide screens: header in two columns, nav aligned with the content */
+@media (min-width:1000px){
+  .band-in{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);column-gap:48px;align-items:center}
+  .band-in>.eyebrow,.band-in>.checked,.band-in>.facts{grid-column:1/-1}
+  .band-in>h1,.band-in>.sub{grid-column:1;max-width:none}
+  .band-in>.stats{grid-column:2;grid-row:2/4;display:grid;grid-template-columns:repeat(3,auto);gap:18px 36px;justify-content:end;align-self:center;margin-top:0}
+  .stat b{font-size:30px}
+}
+/* quick nav + page zoom */
+.qnav{position:sticky;top:0;z-index:12;display:flex;gap:6px;align-items:center;overflow-x:auto;padding:8px max(20px, calc((100% - 1640px) / 2 + 20px));background:var(--surface);border-bottom:1px solid var(--line);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.qnav::-webkit-scrollbar{display:none}
+.qnav a{flex:none;font-size:13px;font-weight:700;padding:7px 13px;border-radius:999px;border:1px solid var(--line);color:var(--ink);text-decoration:none;background:var(--bg)}
+.qnav a:hover{border-color:var(--ink)}
+.pz{flex:none;margin-left:auto;display:inline-flex;align-items:center;gap:4px;padding-left:8px}
+.pz button{width:32px;height:32px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:17px;font-weight:700;cursor:pointer;color:var(--ink);line-height:1}
+.pz .pzl{width:auto;min-width:46px;border:0;background:none;font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);padding:0 4px}
+.pz .pzl:hover{color:var(--ink);text-decoration:underline}
+.mapdet summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--link);padding:4px 0}
+.mapdet[open] summary{margin-bottom:8px}
+.after h3{font-size:18px}
+.after .ah-dl{font-size:13.5px}
+.after .lbtn{padding:6px 10px;font-size:12.5px}
+
+/* back to timeline */
+.sec-head h2{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.back{font-size:12.5px;font-weight:700;letter-spacing:0;color:var(--link);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.back:hover{border-color:var(--link)}
+.totop{position:fixed;left:18px;bottom:18px;z-index:15;background:var(--surface);color:var(--navy);border:2px solid var(--navy);border-radius:999px;padding:10px 16px;font-weight:800;font-size:14px;text-decoration:none;box-shadow:0 8px 24px rgba(7,33,70,.25)}
+.totop[hidden]{display:none}
+:root[data-theme="dark"] .totop{color:var(--ink);border-color:var(--ink)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .totop{color:var(--ink);border-color:var(--ink)} }
+@media (max-width:640px){ .totop{left:10px;bottom:10px;padding:8px 13px;font-size:13.5px} }
+
+/* sponsors */
+.tier{display:grid;gap:8px;margin-bottom:18px}
+.tier h3{margin:0;font-size:15px;font-weight:800;display:flex;gap:8px;align-items:baseline}
+.tier h3 span{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted)}
+.spons-row{display:flex;flex-wrap:wrap;gap:8px}
+.spc{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden}
+.spc a{padding:6px 11px;font-size:13.5px;font-weight:600;color:var(--ink);text-decoration:none}
+.spc a:hover{color:var(--link);text-decoration:underline}
+.spc.big a{font-size:15px;padding:9px 14px;font-weight:700}
+.spc button{border:0;border-left:1px solid var(--line);background:var(--bt);color:var(--bc);font-size:12px;font-weight:700;padding:0 10px;cursor:pointer;font-family:var(--mono)}
+.spc button:hover{background:var(--bc);color:var(--bo)}
+.spc.db{background:var(--navy);border-color:var(--navy)}
+.spc.db a{color:#fff}
+
+/* speaker directory */
+.dir-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+#dq{flex:1 1 240px;max-width:360px}
+.az{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:16px}
+.az a,.az span{width:32px;height:32px;display:grid;place-items:center;border-radius:6px;font-weight:700;font-size:13px;text-decoration:none}
+.az a{background:var(--surface);border:1px solid var(--line);color:var(--ink)}
+.az a:hover{border-color:var(--ink)}
+.az span{color:var(--muted);opacity:.45}
+.letter{margin:0 0 8px;font-family:var(--mono);font-size:14px;font-weight:500;color:var(--muted);display:flex;gap:10px;align-items:center;scroll-margin-top:64px}
+.letter::after{content:"";flex:1;height:1px;background:var(--line)}
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px;margin-bottom:18px}
+.person{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 12px;align-content:start}
+.person a.nm{font-weight:700;font-size:14.5px;color:var(--ink);text-decoration:none}
+.person a.nm:hover{color:var(--link);text-decoration:underline}
+.person a.nm .in{font-size:10px;font-weight:800;color:#fff;background:#0A66C2;border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:2px}
+.person .role{font-size:12px;color:var(--muted);line-height:1.35}
+.person .ses{grid-column:2;display:flex;flex-direction:column;gap:3px;margin-top:6px}
+.person .ses button{background:none;border:0;padding:0;text-align:left;font-size:12.5px;line-height:1.35;color:var(--link);cursor:pointer}
+.person .ses button:hover{text-decoration:underline}
+.person .ses b{font-family:var(--mono);font-weight:500;color:var(--muted);margin-right:4px}
+
+footer{border-top:1px solid var(--line);padding-top:16px;font-size:12px;color:var(--muted);display:grid;gap:4px}
+
+@media (max-width:420px){ .cards{grid-template-columns:minmax(0,1fr)} }
+@media (max-width:640px){
+  .band-in{padding:18px 14px 16px;gap:8px}
+  h1{font-size:25px;max-width:none}
+  .eyebrow{font-size:11px}
+  .sub{display:none}
+  .checked{font-size:11.5px}
+  .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 8px}
+  .stat b{font-size:21px}
+  .stat span{font-size:10.5px}
+  .facts{display:grid;grid-template-columns:minmax(0,1fr);gap:5px}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fact{border-radius:8px;font-size:12px;padding:4px 9px;line-height:1.35}
+  .qnav{padding:7px 12px}
+  .wrap{padding:14px 12px 96px;gap:22px}
+  h2{font-size:19px}
+  .sec-head{margin-bottom:8px}
+  .sec-head p{font-size:13px}
+  .card{padding:12px 13px}
+  .card h4{font-size:16px}
+  .filters .finput{flex:1 1 100%;max-width:none}
+  .count{margin-left:0}
+  .fab{padding:9px 14px;right:10px;bottom:10px;font-size:14px}
+  .legend{gap:6px 12px}
+  .live{padding:12px 13px}
+  .gridbox{max-height:62vh}
+}
+@media (prefers-reduced-motion: reduce){ .blk{transition:none} html{scroll-behavior:auto} }
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<div id="app">
+<div class="band">
+  <div class="band-in">
+    <div class="eyebrow">Wednesday 11 November 2026 · ExCeL London</div>
+    <h1>Data + AI World Tour <em>London</em>: full agenda, speakers and companies</h1>
+    <div class="sub">Every session of the day on one page: what runs in parallel, who is speaking and which companies take part. Tap a speaker to find them on LinkedIn.</div>
+    <div class="stats" id="stats"></div>
+    <div class="checked" id="checked">Last checked against the official session catalog: <b>Sun 8 Nov 2026</b></div>
+    <div class="facts">
+      <span class="fact"><b>Hands-on trainings</b> need a reserved seat in the official catalog</span>
+      <span class="fact"><b>Each lab runs 3×</b>: 11:30, 13:30 and 15:30</span>
+      <span class="fact"><b>Bring</b> a charged laptop for the labs</span>
+      <span class="fact"><b>Evening:</b> Data After Hours, Canary Wharf, 18:00</span>
+    </div>
+  </div>
+</div>
+
+<nav class="qnav" aria-label="Jump to section">
+  <a href="#live">Now</a><a href="#glance">Timeline</a><a href="#where">Rooms</a><a href="#sessions">Sessions</a><a href="#speakers">Speakers</a><a href="#sponsors">Sponsors</a><a href="#after">Evening</a>
+  <span class="pz" role="group" aria-label="Page zoom"><button data-pz="-" aria-label="Zoom page out">−</button><button id="pzl" data-pz="0" class="pzl" aria-label="Reset page zoom to 100%" title="Reset to 100%">100%</button><button data-pz="+" aria-label="Zoom page in">+</button></span>
+</nav>
+<main class="wrap">
+  <section class="panel live" id="live" aria-label="On now and up next"></section>
+
+  <section aria-labelledby="ov-h" id="glance">
+    <div class="sec-head">
+      <h2 id="ov-h">At a glance</h2>
+      <p>Rooms across, time down. Tap a block to jump to its speakers.</p>
+    </div>
+    <div class="panel">
+      <div class="legend">
+        <span class="sw k-k"><i></i>Keynote</span>
+        <span class="sw k-b"><i></i>Breakout · 40 min</span>
+        <span class="sw k-l"><i></i>Lightning talk · 20 min</span>
+        <span class="sw k-t"><i></i>Hands-on training · 90 min</span>
+        <span class="sw k-i"><i></i>Industry session · 60 min</span>
+        <span class="zhint">Pinch to zoom</span><div class="zoomctl" data-zoom="grid" role="group" aria-label="Zoom"><button data-z="-" aria-label="Zoom out">−</button><span>100%</span><button data-z="+" aria-label="Zoom in">+</button><button data-z="0" aria-label="Reset zoom" class="zr">Reset</button></div>
+      </div>
+      <div class="gridbox" id="gridbox"><div id="gzoom"><div class="ghead" id="ghead"></div><div class="gbody" id="gbody"></div></div></div>
+      <div class="extra">
+        <a class="x" href="#sponsors"><span class="bt">Midday</span>Lunch served in the Expo · who’s exhibiting ↓</a>
+        <a class="x" href="#after"><span class="bt">18:00–22:30</span>Data After Hours · Pergola on the Wharf, Canary Wharf · venue and directions ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="wh-h" id="where">
+    <div class="sec-head">
+      <h2 id="wh-h">Where things are</h2><a class="back" href="#glance" aria-label="Back to the timeline">↑ Timeline</a>
+      <p>Tap a room on the plan to see only the sessions held there.</p>
+    </div>
+    <div class="where">
+      <div class="panel mp">
+        <div class="mp-head"><h3>Inside ExCeL: the ICC rooms in use</h3><div class="zoomctl" data-zoom="fp" role="group" aria-label="Zoom"><button data-z="-" aria-label="Zoom out">−</button><span>100%</span><button data-z="+" aria-label="Zoom in">+</button><button data-z="0" aria-label="Reset zoom" class="zr">Reset</button></div></div>
+        <div class="svgbox" id="fpbox">
+          <svg viewBox="0 0 900 470" role="img" aria-labelledby="fp-t">
+            <title id="fp-t">Schematic of ExCeL’s ICC: Level 3 Maritime Suite with the Victoria, George V and Connaught rooms, and Level 0 with the ICC Auditorium</title>
+            <text class="f-lbl" x="20" y="22">LEVEL 3 · ICC MARITIME SUITE</text>
+            <text class="f-small" x="880" y="22" text-anchor="end">N ↑</text>
+            <rect class="f-bldg" x="20" y="32" width="860" height="236" rx="10"/>
+            <rect class="f-blvd" x="30" y="42" width="840" height="30" rx="5"/>
+            <text class="f-small" x="40" y="62">⇅ Escalators to lower levels</text>
+            <text class="f-small" x="450" y="62" text-anchor="middle">Upper Boulevard · foyer</text>
+            <rect class="f-other" x="30" y="82" width="60" height="176" rx="5"/>
+            <text class="f-small" x="60" y="170" text-anchor="middle" transform="rotate(-90 60 170)">Other meeting rooms</text>
+
+            <rect class="f-block" x="100" y="82" width="260" height="176" rx="6"/>
+            <text class="f-lbl" x="112" y="100">VICTORIA ROOMS</text>
+            <g class="chip-r k-t" data-room="TR1" tabindex="0" role="button" aria-label="Victoria 1, Training Room 1: show sessions">
+              <rect x="112" y="108" width="236" height="44" rx="6"/><text class="t1" x="124" y="127">Victoria 1</text><text class="t2" x="124" y="144">Training Room 1 · Genie lab</text></g>
+            <g class="chip-r k-t" data-room="TR2" tabindex="0" role="button" aria-label="Victoria 2, Training Room 2: show sessions">
+              <rect x="112" y="158" width="236" height="44" rx="6"/><text class="t1" x="124" y="177">Victoria 2</text><text class="t2" x="124" y="194">Training Room 2 · Lakebase lab</text></g>
+            <g class="chip-r k-b" data-room="BR1" tabindex="0" role="button" aria-label="Victoria 4, Breakout Room 1: show sessions">
+              <rect x="112" y="208" width="236" height="44" rx="6"/><text class="t1" x="124" y="227">Victoria 4</text><text class="t2" x="124" y="244">Breakout Room 1</text></g>
+
+            <rect class="f-other" x="370" y="82" width="70" height="176" rx="5"/>
+            <text class="f-small" x="405" y="170" text-anchor="middle" transform="rotate(-90 405 170)">Albert &amp; Trinity rooms</text>
+
+            <rect class="f-block" x="450" y="82" width="300" height="176" rx="6"/>
+            <text class="f-lbl" x="462" y="100">GEORGE V ROOMS</text>
+            <g class="chip-r k-b" data-room="BR2" tabindex="0" role="button" aria-label="George V 1, Breakout Room 2: show sessions">
+              <rect x="462" y="108" width="136" height="70" rx="6"/><text class="t1" x="474" y="136">George V 1</text><text class="t2" x="474" y="154">Breakout Room 2</text></g>
+            <g class="chip-r k-b" data-room="BR3" tabindex="0" role="button" aria-label="George V 2, Breakout Room 3: show sessions">
+              <rect x="462" y="184" width="136" height="68" rx="6"/><text class="t1" x="474" y="212">George V 2</text><text class="t2" x="474" y="230">Breakout Room 3</text></g>
+            <g class="chip-r k-b" data-room="BR4" tabindex="0" role="button" aria-label="George V 3, Breakout Room 4: show sessions">
+              <rect x="606" y="108" width="136" height="70" rx="6"/><text class="t1" x="618" y="136">George V 3</text><text class="t2" x="618" y="154">Breakout Room 4</text></g>
+            <g class="chip-r k-b" data-room="BR5" tabindex="0" role="button" aria-label="George V 4, Breakout Room 5: show sessions">
+              <rect x="606" y="184" width="136" height="68" rx="6"/><text class="t1" x="618" y="212">George V 4</text><text class="t2" x="618" y="230">Breakout Room 5</text></g>
+
+            <rect class="f-block" x="760" y="82" width="110" height="176" rx="6"/>
+            <text class="f-lbl" x="772" y="100">CONNAUGHT</text>
+            <g class="chip-r k-b" data-room="BR6" tabindex="0" role="button" aria-label="Connaught, Breakout Room 6: show sessions">
+              <rect x="772" y="108" width="88" height="144" rx="6"/><text class="t1" x="784" y="134">Connaught</text><text class="t2" x="784" y="154">Breakout</text><text class="t2" x="784" y="170">Room 6</text></g>
+
+            <rect class="f-water" x="20" y="276" width="860" height="22" rx="4"/>
+            <text class="f-small" x="450" y="291" text-anchor="middle">Royal Victoria Dock (south side)</text>
+
+            <text class="f-lbl" x="20" y="326">LEVEL 0 · ICC</text>
+            <rect class="f-bldg" x="20" y="336" width="860" height="122" rx="10"/>
+            <rect class="f-other" x="30" y="346" width="150" height="102" rx="6"/>
+            <text class="t1" x="44" y="380" style="font-size:13px;font-weight:700">Prince Regent DLR</text>
+            <text class="f-small" x="44" y="398">nearest station</text>
+            <text class="f-small" x="44" y="414">to the ICC</text>
+            <g class="chip-r k-k" data-room="AUD" tabindex="0" role="button" aria-label="ICC Auditorium: show sessions">
+              <rect x="190" y="346" width="300" height="102" rx="6"/><text class="t1" x="206" y="380">ICC Auditorium</text><text class="t2" x="206" y="400">Keynote 09:30–11:00</text><text class="t2" x="206" y="417">and Breakout Room 7</text></g>
+            <rect class="f-blvd" x="500" y="346" width="370" height="46" rx="6"/>
+            <text class="f-small" x="516" y="374">Boulevard · escalators up to Level 3</text>
+            <rect class="f-other" x="500" y="400" width="370" height="48" rx="6"/>
+            <text class="f-small" x="516" y="428">Expo and lunch: follow the event signage</text>
+          </svg>
+        </div>
+        <p class="cap">Schematic, not to scale. Based on ExCeL’s published Level 3 plan of the ICC Maritime Suite. Room positions inside each block are approximate, so follow the venue signage on the day.</p>
+      </div>
+
+      <div class="panel mp after" id="after">
+        <div class="ah-eyebrow">18:00–22:30 · Evening event</div>
+        <h3>Data After Hours · Pergola on the Wharf</h3>
+        <dl class="ah-dl">
+          <dt>Where</dt><dd>Crossrail Place Roof Garden, Canary Wharf, E14 5AR</dd>
+          <dt>How</dt><dd>Elizabeth line, Custom House → Canary Wharf (1 stop). About 20 min from ExCeL.</dd>
+        </dl>
+        <div class="links">
+          <a class="lbtn primary" href="https://www.google.com/maps/dir/?api=1&amp;origin=ExCeL%20London&amp;destination=Pergola%20on%20the%20Wharf%2C%20Crossrail%20Place%2C%20London%20E14%205AR&amp;travelmode=transit" target="_blank" rel="noopener">Directions ↗</a>
+          <a class="lbtn" href="https://www.google.com/maps/search/?api=1&amp;query=Pergola%20on%20the%20Wharf%2C%20Crossrail%20Place%2C%20London%20E14%205AR" target="_blank" rel="noopener">Google Maps ↗</a>
+          <a class="lbtn" href="https://www.pergolacanarywharf.co.uk/" target="_blank" rel="noopener">Venue ↗</a>
+          <a class="lbtn" href="https://dataaisummit.databricks.com/flow/db/wt26lhr/scheduler/page/catalog/session/1791825356052001DTmJ" target="_blank" rel="noopener">Event page ↗</a>
+        </div>
+        <details class="mapdet">
+          <summary>Show map: ExCeL to Canary Wharf</summary>
+          <div class="mp-head"><span class="cap">Schematic, not to scale</span><div class="zoomctl" data-zoom="am" role="group" aria-label="Zoom"><button data-z="-" aria-label="Zoom out">−</button><span>100%</span><button data-z="+" aria-label="Zoom in">+</button><button data-z="0" aria-label="Reset zoom" class="zr">Reset</button></div></div>
+        <div class="svgbox" id="ambox">
+          <svg viewBox="0 0 900 340" role="img" aria-labelledby="am-t">
+            <title id="am-t">Schematic map: ExCeL London on the Royal Victoria Dock and Pergola on the Wharf in Canary Wharf, linked by the Elizabeth line from Custom House to Canary Wharf</title>
+            <rect class="a-land" x="0" y="0" width="900" height="340" rx="10"/>
+            <path class="a-river" d="M-10,92 C90,98 132,130 132,190 C132,270 172,306 232,306 C302,306 322,252 332,214 C346,168 382,170 400,206 C420,250 432,292 482,292 C542,292 560,240 622,236 L910,236"/>
+            <path class="a-lea" d="M452,20 C446,90 460,150 452,214"/>
+            <text class="f-small" x="230" y="324" text-anchor="middle">River Thames</text>
+            <text class="f-small" x="232" y="250" text-anchor="middle">Isle of Dogs</text>
+            <text class="f-small" x="464" y="44">River Lea</text>
+            <rect class="f-water" x="540" y="168" width="300" height="28" rx="5"/>
+            <text class="f-small" x="690" y="187" text-anchor="middle">Royal Victoria Dock</text>
+            <rect class="a-excel" x="540" y="122" width="300" height="40" rx="5"/>
+            <text class="a-excel-t" x="560" y="147">ExCeL London</text>
+            <rect x="770" y="122" width="70" height="40" rx="5" fill="var(--lava)"/>
+            <text x="805" y="147" text-anchor="middle" style="font-size:13px;font-weight:800;fill:#fff">ICC</text>
+            <path class="a-eliz" d="M232,170 C330,170 430,100 552,100"/>
+            <text x="392" y="118" style="font-size:12px;font-weight:700;fill:#6950A1">Elizabeth line · 1 stop</text>
+            <circle class="a-stn" cx="552" cy="100" r="8"/>
+            <text class="f-small" x="566" y="94" style="font-weight:700;fill:var(--ink)">Custom House</text>
+            <circle class="a-stn" cx="805" cy="100" r="7"/>
+            <text class="f-small" x="805" y="84" text-anchor="middle">Prince Regent DLR</text>
+            <circle class="a-stn" cx="232" cy="170" r="8"/>
+            <text class="f-small" x="232" y="196" text-anchor="middle" style="font-weight:700;fill:var(--ink)">Canary Wharf</text>
+            <path class="a-pin" d="M232,154 C232,154 214,134 214,122 a18,18 0 0 1 36,0 C250,134 232,154 232,154 Z"/>
+            <circle cx="232" cy="122" r="6" fill="#fff"/>
+            <text x="258" y="120" style="font-size:13px;font-weight:800">Pergola on the Wharf</text>
+            <text class="f-small" x="258" y="136">Crossrail Place Roof Garden</text>
+          </svg>
+        </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="ls-h" id="sessions">
+    <div class="sec-head">
+      <h2 id="ls-h">Sessions and speakers</h2><a class="back" href="#glance" aria-label="Back to the timeline">↑ Timeline</a>
+      <p>Filter by format or company, or search by name.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filters">
+      <button class="fchip" data-type="all" aria-pressed="true">All</button>
+      <button class="fchip k-k" data-type="keynote" aria-pressed="false"><i></i>Keynote</button>
+      <button class="fchip k-b" data-type="breakout" aria-pressed="false"><i></i>Breakouts</button>
+      <button class="fchip k-l" data-type="lightning" aria-pressed="false"><i></i>Lightning</button>
+      <button class="fchip k-t" data-type="training" aria-pressed="false"><i></i>Training</button>
+      <button class="fchip k-i" data-type="industry" aria-pressed="false"><i></i>Industry</button>
+      <label for="co" class="sr" hidden>Company</label>
+      <select id="co" class="finput" aria-label="Filter by company"></select>
+      <select id="lvl" class="finput" aria-label="Filter by level"></select>
+      <select id="tech" class="finput" aria-label="Filter by technology"></select>
+      <input id="q" class="finput" type="search" placeholder="Search speaker, company or topic" aria-label="Search sessions">
+      <span class="count" id="count"></span>
+    </div>
+    <div class="active" id="active" aria-live="polite" hidden></div>
+    <div class="slots" id="slots"></div>
+  </section>
+
+  <section aria-labelledby="sp-h" id="speakers">
+    <div class="sec-head">
+      <h2 id="sp-h">Speakers A–Z</h2><a class="back" href="#glance" aria-label="Back to the timeline">↑ Timeline</a>
+      <p>Every speaker, with company, LinkedIn search and the sessions they appear in.</p>
+    </div>
+    <div class="dir-tools">
+      <input id="dq" class="finput" type="search" placeholder="Search name, role or company" aria-label="Search speakers">
+      <button class="btn" id="dcopy">Copy these names</button>
+      <span class="count" id="dcount"></span>
+    </div>
+    <nav class="az" id="az" aria-label="Jump to letter"></nav>
+    <div id="dir"></div>
+  </section>
+
+  <section aria-labelledby="spn-h" id="sponsors">
+    <div class="sec-head">
+      <h2 id="spn-h">Sponsors and Expo</h2><a class="back" href="#glance" aria-label="Back to the timeline">↑ Timeline</a>
+      <p>Everyone exhibiting, by sponsor tier. Booth numbers aren’t published, so check the Expo floor plan on site.</p>
+    </div>
+    <div id="spons"></div>
+  </section>
+
+  <footer>
+    <div>Unofficial attendee-made agenda, compiled from the public session and sponsor catalogs of the Data + AI World Tour London. Last checked: Sun 8 Nov 2026. Not affiliated with or endorsed by any company listed. Times, rooms and speakers can change; check the official catalog on the day.</div>
+    <div>LinkedIn links open a LinkedIn people search for the speaker’s name and company.</div>
+  </footer>
+</main>
+</div>
+
+<a class="totop" id="totop" href="#glance" hidden>↑ Timeline</a>
+<button class="fab" id="fab" aria-expanded="false" aria-controls="drawer">My day <b id="fabn">0</b></button>
+<aside class="drawer" id="drawer" aria-label="My day" hidden>
+  <div class="d-top"><h2>My day</h2><button class="x-btn" id="dclose" aria-label="Close">×</button></div>
+  <ol class="day" id="day"></ol>
+  <div class="cal" id="cal">
+    <h3>Add to your calendar</h3>
+    <div class="seg" role="group" aria-label="Calendar provider">
+      <button data-cal="google" aria-pressed="true">Google<span>Gmail</span></button>
+      <button data-cal="outlook" aria-pressed="false">Outlook.com<span>Hotmail, Live</span></button>
+      <button data-cal="m365" aria-pressed="false">Microsoft 365<span>work email</span></button>
+    </div>
+    <p>Use “Add ↗” next to each session to open it in your calendar, ready to save.</p>
+    <div class="bulk" id="bulk" hidden>
+      <button class="btn" id="csv">Download all sessions (.csv)</button>
+      <ol>
+        <li>Google Calendar: Settings → Import &amp; export → Import, then choose the file.</li>
+        <li>Outlook desktop: File → Open &amp; Export → Import/Export → “Comma Separated Values”.</li>
+      </ol>
+      <p>Times are converted to this device’s time zone.</p>
+    </div>
+  </div>
+  <div class="d-act"><button class="btn primary" id="copy">Copy agenda</button><button class="btn" id="clear">Clear all</button></div>
+  <div class="status" id="status" aria-live="polite"></div>
+  <textarea id="fallback" readonly hidden aria-label="Agenda text to copy"></textarea>
+</aside>
+
+<script>
+const BASE="https://dataaisummit.databricks.com/flow/db/wt26lhr/scheduler/page/catalog";
+const ROOMS=[
+  {id:"AUD",name:"Auditorium",sub:"Keynote · Breakout Room 7"},
+  {id:"BR1",name:"Victoria 4",sub:"Breakout Room 1"},
+  {id:"BR2",name:"George V 1",sub:"Breakout Room 2"},
+  {id:"BR3",name:"George V 2",sub:"Breakout Room 3"},
+  {id:"BR4",name:"George V 3",sub:"Breakout Room 4"},
+  {id:"BR5",name:"George V 4",sub:"Breakout Room 5"},
+  {id:"BR6",name:"Connaught",sub:"Breakout Room 6"},
+  {id:"TR1",name:"Victoria 1",sub:"Training Room 1"},
+  {id:"TR2",name:"Victoria 2",sub:"Training Room 2"}
+];
+const TYPES={keynote:{label:"Keynote",k:"k"},breakout:{label:"Breakout",k:"b"},lightning:{label:"Lightning talk",k:"l"},training:{label:"Hands-on training",k:"t"},industry:{label:"Industry session",k:"i"},evening:{label:"Evening event",k:"k"}};
+const LB={type:"training",r:"TR2",lvl:"Intermediate",tech:"Lakebase",sk:"Ray Coulstock|Technical Trainer|Databricks",
+  t:"Hands-on Training: Building AI Apps With Lakebase-Powered Memory",
+  d:"Build an agent, give it memory backed by Lakebase, then deploy it as an app on Databricks. Laptop and reserved seat required."};
+const GN={type:"training",r:"TR1",lvl:"Intermediate",tech:"Genie",sk:"Molly Crump|Databricks Certified Instructor|Databricks",
+  t:"Hands-on Training: Enable Trusted Insights for Your Organisation With Genie",
+  d:"Build a Genie agent on Lakehouse data so business users can self-serve reliable answers. Laptop and reserved seat required."};
+const S=[
+  {id:"key",u:"1784251748584001KWB4",t:"Keynote",type:"keynote",s:"09:30",e:"11:00",r:"AUD",
+   sk:"Arsalan Tavakoli-Shiraji|Co-founder & SVP of Field Engineering|Databricks;Holly Smith|DevRel|Databricks;Amber Roberts|Staff Tech Marketing Engineer|Databricks;Will Pratt|Snr Director Enterprise Data|Arm;Samuel Bonamigo|SVP & GM, EMEA|Databricks;Rich Radley|VP, Field Engineering, EMEA|Databricks",
+   d:"Opening keynote on the latest trends and launches in data and AI."},
+  {id:"deloitte",u:"1790950286612001Squ4",t:"AI Has Landed… So Where Is the Value?",sp:"Deloitte",type:"breakout",s:"11:30",e:"12:10",r:"BR2",lvl:"Intermediate",tech:"AI/BI · Agent Bricks · Genie",
+   sk:"Peeyush Aggarwal|Partner|Deloitte;Meggy Chung|Head of Enterprise Data Platform|Barclays;Danny Woodruff|Enterprise Data & Platform Director|Mars",
+   d:"Why most generative AI pilots still show no P&L impact, and what it takes to capture real value."},
+  {id:"easyjet",u:"1790708699534001qbK3",t:"Beyond the AI MVP: Scaling Innovation Into Production at easyJet",sp:"NTT DATA",type:"breakout",s:"11:30",e:"12:10",r:"BR3",lvl:"Intermediate",tech:"Unity Catalog · Agent Bricks · Lakehouse",
+   sk:"Mark Wallace|Head of Data Science, Centre of Enablement|easyJet;Mauricio Lins|Director, Databricks CoE Lead|NTT DATA;Vishal Gupta|Head of Data Platforms & Engineering|NTT DATA",
+   d:"How easyJet built a strategy to industrialise AI and take it from MVP to secure, scalable production."},
+  {id:"bloomberg",u:"1793784618199001f00v",t:"Bloomberg Data Meets Open Sharing: Powering AI in Capital Markets",sp:"Bloomberg",type:"breakout",s:"11:30",e:"12:10",r:"AUD",lvl:"Intermediate",tech:"OpenSharing",
+   sk:"Jerome Barkate|Enterprise Data|Bloomberg;Don Huff|Global Head of Strategic Alliances, Enterprise Data|Bloomberg;Katherine Laue|GTM Lead|Bloomberg",
+   d:"Bloomberg, Databricks and a global investment bank on using OpenSharing to bring trusted financial data into AI without complex pipelines."},
+  {id:"rt",u:"1784316297652001DQNE",t:"Build Native Real-Time Analytics With Lakehouse//RT",type:"breakout",s:"11:30",e:"12:10",r:"BR5",lvl:"Intermediate",tech:"Lakehouse",
+   sk:"Carlos Rodrigues|Senior Specialist Solutions Architect|Databricks;Ruwen Hess|Director of Product Management|Databricks",
+   d:"Serving low-latency, high-concurrency analytics straight from the lakehouse instead of a separate real-time layer."},
+  {id:"genieone",u:"1788966009353001SoVD",t:"Genie One: The Data-Smart AI Coworker for Business Users",type:"breakout",s:"11:30",e:"12:10",r:"BR6",lvl:"Beginner",tech:"Genie",
+   sk:"Claire Douay|Senior Solutions Engineer|Databricks;Elise Georis|Senior Manager, Product Management|Databricks",
+   d:"Introducing Genie One, an AI coworker for business users grounded in business context."},
+  {id:"minio",u:"1790707300284001e07N",t:"Sovereign AI Without Compromise: On-Prem Data With Equinix, AIStor and OpenSharing",sp:"MinIO",type:"breakout",s:"11:30",e:"12:10",r:"BR4",lvl:"Intermediate",tech:"Genie · OpenSharing · Lakehouse",
+   sk:"Ugur Tigli|CTO|MinIO;David Porter|Director of Partner Engineering|Databricks;Justen Aguillon|Director, AI Partnerships & Ecosystem|Equinix",
+   d:"How regulated industries such as finance, healthcare and the public sector can put on-prem data to work with Databricks AI."},
+  {id:"gateway",u:"1784316296439001DZIq",t:"Unity AI Gateway: Scale AI With Full Cost and Model Control",type:"breakout",s:"11:30",e:"12:10",r:"BR1",lvl:"Intermediate",tech:"Unity AI Gateway",
+   sk:"Kasey Uhlenhuth|Director, Product Management|Databricks",
+   d:"A unified governance layer for agent sprawl, AI costs, security and model access."},
+  Object.assign({id:"gn1",u:"1784316295998001D0RQ",s:"11:30",e:"13:00",run:"Run 1 of 3"},GN),
+  Object.assign({id:"lb1",u:"1784316295556001DuIQ",s:"11:30",e:"13:00",run:"Run 1 of 3"},LB),
+  {id:"google",u:"1790688078612001z9sH",t:"Lakehouse to Inbox: Powering Daily Workflows With Databricks and Gemini Enterprise",sp:"Google Cloud",type:"lightning",s:"12:30",e:"12:50",r:"BR6",lvl:"Beginner",tech:"Unity Catalog · Genie · Lakehouse",
+   sk:"Abhinav Bhatia|Staff Technical Solutions Consultant|Google Cloud",
+   d:"Gemini Enterprise as the bridge between Databricks and Google Workspace, shown with a retail scenario."},
+  {id:"confluent",u:"1792082327359001WcQX",t:"Simplify AI-Ready Tables and Context Engineering",sp:"Confluent",type:"lightning",s:"12:30",e:"12:50",r:"BR3",lvl:"Intermediate",tech:"AI/BI · Unity Catalog · Lakehouse",
+   sk:"Alexander Stuart|Senior Solutions Engineer|Confluent",
+   d:"Refining raw, streaming data into fresh governed tables for BI and models, and into context for agents."},
+  {id:"amperity",u:"1791483869008001ZkBG",t:"You’ve Unified Your Data. But Do You Know Your Customer?",sp:"Amperity",type:"lightning",s:"12:30",e:"12:50",r:"BR4",lvl:"Beginner",tech:"Lakehouse",
+   sk:"James Salisbury|Head of Analytics & Data Science|B&Q",
+   d:"B&Q on rethinking customer understanding after migrating to Databricks."},
+  {id:"agentbricks",u:"1784316297057001DA84",t:"Agent Bricks: Build and Scale Agent Fleets in Production",type:"breakout",s:"13:00",e:"13:40",r:"BR1",lvl:"Intermediate",tech:"Agent Bricks",
+   sk:"Archika Dogra|Product Manager|Databricks",
+   d:"Demo-led session: build a custom agent with Agent Bricks and the pieces needed to ship it."},
+  {id:"mentor",u:"1791365903454001ONtm",t:"Beyond Mentorship: The Power of Sponsorship and Advocacy",type:"breakout",s:"13:00",e:"13:40",r:"BR2",
+   sk:"Orla Felcey||Databricks;Kinnari Ladha|Chief Data Officer|Travelodge;Martine Clark|Director of Data Transformation|Bank of England;Nitya Langley|AI & Data Growth Lead|Accenture",
+   d:"Panel of women in data and AI on how sponsorship and advocacy move careers forward."},
+  {id:"replit",u:"1791925325762001zpTH",t:"How Anyone Can Build on Lakehouse Securely",sp:"Replit",type:"breakout",s:"13:00",e:"13:40",r:"AUD",lvl:"Beginner",tech:"Unity Catalog · Databricks Apps · Lakehouse",
+   sk:"Asif Bhatti|Head of Product Partnerships|Replit",
+   d:"Live demo: build data and AI apps in natural language with Replit, connected to governed Databricks data."},
+  {id:"ltap",u:"1784316296750001DGm5",t:"Lakebase and LTAP: The Best Database Architecture for Building AI Apps and Agents",type:"breakout",s:"13:00",e:"13:40",r:"BR5",lvl:"Beginner",tech:"Lakebase",
+   sk:"Himanshu Raja|Sr Director, Product|Databricks;Som Natarajan|Solutions Architect|Databricks",
+   d:"Replacing the split between operational database and analytics warehouse for AI apps and agents."},
+  {id:"met",u:"1793114215712001t60V",t:"From Pilot to Policing: Turning Data into Frontline Decisions",sp:"Capgemini",type:"lightning",s:"13:05",e:"13:25",r:"BR6",lvl:"Intermediate",tech:"AI/BI · Lakehouse",
+   sk:"Jonathan McNaught|Senior Director|Capgemini;Adam Boyse|Digital Innovation Technology Director|Metropolitan Police",
+   d:"How the Metropolitan Police turned a pilot into frontline operational capability."},
+  {id:"coop",u:"1790710445590001moBr",t:"How Databricks Is Helping Customers ‘Pop to Co-op’",sp:"EPAM",type:"lightning",s:"13:05",e:"13:25",r:"BR4",lvl:"Intermediate",tech:"Lakebase · Genie · Lakehouse",
+   sk:"Nick Blewden|Chief Data Officer|Co-op;Radhika Nadkarni|Client Services Director|EPAM",
+   d:"Co-op on using Databricks across its group of businesses for data, insight and AI."},
+  {id:"esure",u:"1791377847681001ZuQl",t:"The Rise of Agentic Analytics at esure",sp:"Advancing Analytics",type:"lightning",s:"13:05",e:"13:25",r:"BR3",lvl:"Beginner",tech:"AI/BI · Genie",
+   sk:"Raj Purkayastha|Head of Advanced Analytics and Insight|esure;Mike Howarth|Data Intelligence Competency Lead|Advancing Analytics",
+   d:"A digital insurer using Genie and multi-agent AI to change how employees interact with data."},
+  Object.assign({id:"gn2",u:"1792613857570001x7ZB",s:"13:30",e:"15:00",run:"Run 2 of 3"},GN),
+  Object.assign({id:"lb2",u:"1792612804405001TsJI",s:"13:30",e:"15:00",run:"Run 2 of 3"},LB),
+  {id:"definity",u:"1789678540979001uo2f",t:"Agentic Cost Optimization: What It Actually Takes",sp:"definity",type:"lightning",s:"13:40",e:"14:00",r:"BR4",lvl:"Intermediate",tech:"AI/BI · Unity Catalog · Lakehouse",
+   sk:"Roy Daniel|CEO & Co-Founder|definity",
+   d:"Moving from reactive cost and performance monitoring to proactive, agent-driven optimisation."},
+  {id:"ontology",u:"1788903586314001dgTC",t:"Genie Ontology: Open and Adaptive Context for Agents, Apps and BI",type:"lightning",s:"13:40",e:"14:00",r:"BR6",tech:"Genie",
+   sk:"Uday Gaddam|Solutions Architect|Databricks;Natalie Watson|Core Analytics Manager|Flo Health",
+   d:"A single governed context layer that agents, apps and BI can all draw on."},
+  {id:"colibri",u:"1793273236120001rvox",t:"Investment to Value in Weeks: What PE-Backed Businesses Learned Building Agentic-First",sp:"Colibri Digital",type:"lightning",s:"13:40",e:"14:00",r:"BR3",lvl:"Intermediate",tech:"Unity Catalog",
+   sk:"Jonathan Morris|CTO-in-Residence|Five Arrows / Imperem",
+   d:"Getting value from a data platform within private-equity hold periods."},
+  {id:"apps",u:"1788904043998001fQ7C",t:"Databricks Apps for Everyone: Unlocking Citizen Development at Scale",type:"breakout",s:"14:00",e:"14:40",r:"BR1",lvl:"Beginner",tech:"Databricks Apps",
+   sk:"Cong Xu|Product Manager|Databricks;Luke Thorp|Solutions Architect|Databricks",
+   d:"From prototype to production apps on Databricks, for professional and citizen developers."},
+  {id:"customerlake",u:"1788902331806001PE2a",t:"Databricks CustomerLake: Agentic CDP Embedded Natively in Your Lakehouse",type:"breakout",s:"14:00",e:"14:40",r:"BR5",lvl:"Beginner",tech:"CustomerLake",
+   sk:"Phil Catterall|Senior Product Manager|Databricks;Nish Dixit|Solutions Architect|Databricks",
+   d:"The new agentic customer data platform for marketing, built into Databricks."},
+  {id:"sigma",u:"1793627307404001w2Kw",t:"How Sagacity Uses Sigma’s AI Capabilities With Databricks",sp:"Sigma Computing",type:"breakout",s:"14:00",e:"14:40",r:"BR2",lvl:"Intermediate",tech:"AI/BI · Unity Catalog · Lakehouse",
+   sk:"Costas Christoforou|Data Science and Innovation Analyst|Sagacity",
+   d:"Sigma agents answering business questions on top of Databricks data."},
+  {id:"omni",u:"1791925817778001ogMK",t:"BI Became Dashboards. Now It’s Becoming Intelligence Again",sp:"Omni",type:"lightning",s:"14:20",e:"14:40",r:"BR4",lvl:"Intermediate",tech:"AI/BI · Unity Catalog",
+   sk:"Will Savage|Field CTO|Omni",
+   d:"Business users getting their own answers with AI rather than waiting on dashboards."},
+  {id:"idp",u:"1788903325827001bg4Z",t:"Intelligent Document Processing With Lakeflow: Unstructured Data for Agents and Analytics",type:"lightning",s:"14:20",e:"14:40",r:"BR6",tech:"Lakeflow",
+   sk:"Sepideh Ebrahimi|Sr Product Specialist, Gen AI|Databricks",
+   d:"Turning invoices, contracts, forms and filings into usable data for agents and analytics."},
+  {id:"select",u:"1790850500871001YUVj",t:"Managing Databricks Costs: SELECT’s Proven Framework From 250+ Customers",sp:"SELECT by DoiT",type:"lightning",s:"14:20",e:"14:40",r:"BR3",lvl:"Beginner",tech:"Unity Catalog",
+   sk:"Niall Woodward|Co-founder|SELECT by DoiT",
+   d:"A six-part framework for Databricks cost optimisation, starting with visibility."},
+  {id:"shell",u:"1788271646781001ntrU",t:"Agentic Data Product Lakehouse: AI Agents Orchestrating Reusable, Self-Managing Data Products",sp:"Celebal Technologies",type:"breakout",s:"15:00",e:"15:40",r:"BR2",lvl:"Intermediate",tech:"Lakeflow · Unity Catalog · Agent Bricks",
+   sk:"Rathish Dhayalan|Sr. Capability Centre Leader|Shell;Manprit Singh|CTO Industrial AI|Celebal Technologies",
+   d:"Shell and Celebal on evolving the data platform into reusable data products that agents help manage."},
+  {id:"ctm",u:"1793049108489001ynGI",t:"AI Agents Need a Governed Data Platform: How Compare the Market Builds a Trusted Data Foundation",sp:"DATAPAO",type:"breakout",s:"15:00",e:"15:40",r:"BR3",lvl:"Beginner",tech:"Unity Catalog · Unity AI Gateway",
+   sk:"Nagy Nagy|Head of Data Platform|Compare the Market;Mate Gulyas|CEO|DATAPAO",
+   d:"Governed, documented, access-controlled data as the foundation for putting agents into production."},
+  {id:"openai",u:"1793206963743001J1CX",t:"From Chat to Production: Building With OpenAI and Databricks, End-to-End",sp:"OpenAI",type:"breakout",s:"15:00",e:"15:40",r:"BR6",lvl:"Intermediate",tech:"Databricks Apps · Agent Bricks · Unity AI Gateway",
+   sk:"Ankith Ede||OpenAI;Suman Koduri||",
+   d:"Live walkthrough from conversational data exploration with Codex to a governed production agent."},
+  {id:"ey",u:"1793264455109001zp1g",t:"From Data Platform to AI Enterprise: The Next Chapter",sp:"EY",type:"breakout",s:"15:00",e:"15:40",r:"BR4",lvl:"Intermediate",tech:"Databricks Apps · Genie · Unity AI Gateway",
+   sk:"Mamta Thangaraj|Director Data Strategy|Arm;Yogesh Thangavelu|Principal Data Engineer|AstraZeneca",
+   d:"Panel with EY, AstraZeneca and Arm on turning modern data platforms into trusted AI and business value."},
+  {id:"sf",u:"1790944004667001Dfp0",t:"Turn Databricks Data Into Action With Trusted Context From Salesforce",sp:"Salesforce",xco:["Informatica"],type:"breakout",s:"15:00",e:"15:40",r:"BR5",lvl:"Beginner",tech:"Unity Catalog · Databricks Apps · Lakehouse",
+   sk:"",d:"Salesforce Data 360 connecting to Databricks data through Zero Copy, with Informatica extending the context."},
+  {id:"gousto",u:"1792084573266001nU5O",t:"When Your AI Agent Disagrees With the Dashboard: Building Trusted Analytics",sp:"Fivetran + dbt Labs",type:"breakout",s:"15:00",e:"15:40",r:"BR1",lvl:"Intermediate",tech:"Lakehouse",
+   sk:"Maddy Calvert|Senior Analytics Engineer|Gousto;Yanick Nguene|Senior Analytics Engineering Manager|Gousto",
+   d:"Gousto on making trusted insight available beyond dashboards and SQL."},
+  Object.assign({id:"gn3",u:"1792614030176001dxls",s:"15:30",e:"17:00",run:"Run 3 of 3"},GN),
+  Object.assign({id:"lb3",u:"1792612962505001cL52",s:"15:30",e:"17:00",run:"Run 3 of 3"},LB),
+  {id:"fs",u:"1791317768936001c48g",t:"Financial Services Industry Session",type:"industry",s:"16:00",e:"17:00",r:"BR1",lvl:"Beginner",
+   sk:"Barry Panayi|Group CDO|Howden;Andrea DeSosa|Global Capital Markets GTM Lead|Databricks;Conor McHarg|Senior Solutions Engineer|Databricks;Nicola de Cogan||Barclays;Hannah Cawthorne|Senior Director, Banking|Databricks",
+   d:"AI for trading, fraud and regulation in financial services."},
+  {id:"mfg",u:"1791363499357001AIiL",t:"Manufacturing, Energy & Utilities Industry Session",type:"industry",s:"16:00",e:"17:00",r:"BR4",lvl:"Beginner",
+   sk:"Patrick Feast|RVP Enterprise UKI|Databricks;Dan Keeling|Solution Architect|Databricks;Kevin Tubb|Chief Data & AI Officer|The AA;Jo Cook|Director Data Products & Data Science|The AA;David Jacques||E.ON Next",
+   d:"Cost, resilience and speed in manufacturing, energy and utilities."},
+  {id:"media",u:"1791369027504001Rxqw",t:"Media, Advertising and Telecommunications Industry Session",type:"industry",s:"16:00",e:"17:00",r:"BR3",lvl:"Beginner",
+   sk:"André Garrido|VP of Data Engineering|Numerator;Daniel Watkins|CIO Business Platforms and Corporate|WPP;Jake LaDuke|Global GTM Media, Entertainment & Advertising|Databricks;Alec Manning|Head of Data Science & AI|VodafoneThree;Kaltrina Brahimi||MiQ",
+   d:"Media moving to a prediction economy and telecoms turning subscriber data into proactive service."},
+  {id:"pub",u:"1791318128176001oUuI",t:"Public Sector Industry Session",type:"industry",s:"16:00",e:"17:00",r:"BR2",lvl:"Beginner",
+   sk:"Matthew Bottomley||Databricks;Lee Stockwell|Head of Public Sector UK&I|Databricks;John Kelly|CDO|Department for Education;Nicki Lodge|Principal Data Engineer|National Highways;Molly Just-Behr|Global Head of Public Sector, GTM|Databricks;Charis Doidge|Head of Data Science & Analytics|Maritime and Coastguard Agency;Adam Boyse|Digital Innovation Technology Director|Metropolitan Police",
+   d:"Government leaders on sharing data across departments and putting AI to work."},
+  {id:"retail",u:"1791368015375001AAzt",t:"Retail Industry Session",type:"industry",s:"16:00",e:"17:00",r:"BR6",lvl:"Beginner",
+   sk:"Max Grender-Jones|Director of Performance Marketing and Analytics|ASOS;Mike Lombardi|Enterprise Data Architect|ASOS;Anna Gatty|Solution Architect|Databricks;Rob Saker|Global VP Consumer Industries|Databricks;Andrew Banks|RVP, Consumer Industries|Databricks",
+   d:"How retailers and consumer brands use unified data for customers, demand and operations."},
+  {id:"tech",u:"1791811210702001PJ2x",t:"Tech and AI Industry Session: Build for the Model After This One",type:"industry",s:"16:00",e:"17:00",r:"BR5",lvl:"Beginner",
+   sk:"Mikey Flynn|Global GTM Strategy Lead, Digital Natives|Databricks;Shabeel Kandi|Solutions Architect|Databricks;Francis Hart|VP Data & AI|SEGA Europe;Daria Morajska|Lead Software Engineer|PolyAI;Greg Janota|Senior Product Manager|PolyAI",
+   d:"Building AI products that hold up when the next model generation arrives."},
+  {id:"party",u:"1791825356052001DTmJ",t:"Data After Hours",type:"evening",s:"18:00",e:"22:30",r:"EVE",room:"Pergola on the Wharf, Canary Wharf",sk:"",
+   d:"Evening networking with cocktails, food and a DJ."}
+];
+// derive speakers and companies
+S.forEach(s=>{
+  s.spk=(s.sk||"").split(";").filter(Boolean).map(x=>{const [n,r,c]=x.split("|");return {n,r:r||"",c:c||""};});
+  const set=new Set();
+  if(s.sp) s.sp.split(" + ").forEach(x=>set.add(x.trim()));
+  (s.xco||[]).forEach(x=>set.add(x));
+  s.spk.forEach(p=>p.c&&set.add(p.c));
+  s.cos=[...set];
+  s.url=BASE+"/session/"+s.u;
+});
+// readable deep-link names, used as #name in the page address
+const SLUGS={key:"keynote",deloitte:"deloitte-ai-value",easyjet:"easyjet-ai-mvp",bloomberg:"bloomberg-open-sharing",rt:"lakehouse-rt",genieone:"genie-one",minio:"sovereign-ai",gateway:"unity-ai-gateway",
+  gn1:"lab-genie-1130",lb1:"lab-lakebase-1130",gn2:"lab-genie-1330",lb2:"lab-lakebase-1330",gn3:"lab-genie-1530",lb3:"lab-lakebase-1530",
+  google:"gemini-enterprise",confluent:"ai-ready-tables",amperity:"bq-customer",agentbricks:"agent-bricks",mentor:"sponsorship-advocacy",replit:"replit-lakehouse",ltap:"lakebase-ltap",
+  met:"met-police",coop:"co-op",esure:"esure-agentic-analytics",definity:"agentic-cost-optimization",ontology:"genie-ontology",colibri:"pe-agentic-first",
+  apps:"databricks-apps",customerlake:"customerlake",sigma:"sigma-sagacity",omni:"omni-bi",idp:"lakeflow-document-processing",select:"databricks-costs-select",
+  shell:"shell-data-products",ctm:"compare-the-market",openai:"openai-databricks",ey:"ey-ai-enterprise",sf:"salesforce-context",gousto:"gousto-trusted-analytics",
+  fs:"financial-services",mfg:"manufacturing-energy",media:"media-telecoms",pub:"public-sector",retail:"retail",tech:"tech-ai",party:"data-after-hours"};
+S.forEach(s=>{ s.slug=SLUGS[s.id]||("session-"+s.id); });
+// where is this page running? inside claude.ai (framed) or as its own website
+const FRAMED=(()=>{ try{ return window.self!==window.top; }catch(e){ return true; } })();
+const IS_ANDROID=/Android/i.test(navigator.userAgent||"");
+const SHARE_URL=FRAMED?"https://claude.ai/artifact/3ik4xQZ6xFhYmSpgEuoBbk":(location.origin+location.pathname);
+const START=570,END=1020,PX=2.4,H=(END-START)*PX;
+const byId=Object.fromEntries(S.map(s=>[s.id,s]));
+const m=t=>{const [h,mm]=t.split(":").map(Number);return h*60+mm};
+const fmt=n=>String(Math.floor(n/60)).padStart(2,"0")+":"+String(n%60).padStart(2,"0");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const roomName=s=>s.room||(r=>r?`${r.name} · ${r.sub.split(" · ").pop()}`:"")(ROOMS.find(r=>r.id===s.r));
+const overlaps=(a,b)=>m(a.s)<m(b.e)&&m(b.s)<m(a.e);
+const initials=n=>n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join("");
+// verified LinkedIn profiles (name + company checked); profile links open the LinkedIn app on phones
+const LI_PROFILES={"Arsalan Tavakoli-Shiraji": "arsalantavakoli", "Holly Smith": "holly-smith-data", "Amber Roberts": "amber-roberts42", "Will Pratt": "will-pratt-b1805622", "Samuel Bonamigo": "samuelbonamigo", "Rich Radley": "richardradley", "Peeyush Aggarwal": "peaggarw", "Meggy Chung": "meggy-chung-3a021a160", "Mauricio Lins": "mauricio-lins", "Vishal Gupta": "vishal-gupta-a29186a", "Jerome Barkate": "jerome-barkate-cfa", "Don Huff": "donhuffjr", "Carlos Rodrigues": "carlosrodrigues5", "Elise Georis": "elise-georis-b1752a60", "David Porter": "dcporter10", "Justen Aguillon": "justen-aguillon-91194221", "Abhinav Bhatia": "abhinav-bhatia-02702031", "Alexander Stuart": "ajfstuart", "James Salisbury": "james-salisbury-0b279aa", "Archika Dogra": "archikadogra", "Orla Felcey": "orla-felcey", "Kinnari Ladha": "kinnari-ladha", "Himanshu Raja": "himanshuraja", "Adam Boyse": "adamboyse", "Radhika Nadkarni": "radhikanadkarni", "Raj Purkayastha": "rajlakshmi", "Mike Howarth": "michael-howarth-b32432135", "Roy Daniel": "roydaniel1", "Uday Gaddam": "udaybhanu-gaddam", "Jonathan Morris": "jonathanmorris", "Cong Xu": "congxu1990", "Luke Thorp": "luke-thorp", "Phil Catterall": "philip-catterall", "Nish Dixit": "dixitnishant", "Costas Christoforou": "costas-christoforou-phd-3b0261185", "Will Savage": "will-savage-908aa524", "Sepideh Ebrahimi": "sepideh-ebrahimi-47537279", "Niall Woodward": "niall-woodward", "Rathish Dhayalan": "rathishdhayalan", "Manprit Singh": "manprit", "Mate Gulyas": "gulyasm", "Mamta Thangaraj": "mamtathangaraj", "Barry Panayi": "barrypanayi", "Patrick Feast": "patrickfeast79", "Kevin Tubb": "kevintubb", "Jo Cook": "jo-cook-3571942b", "David Jacques": "david-jacques-97837461", "Daniel Watkins": "danieljwatkins", "Kaltrina Brahimi": "kaltrina-brahimi", "Matthew Bottomley": "matthew-bottomley", "Lee Stockwell": "lee-stockwell-727889190", "John Kelly": "johnkelly-uk", "Mike Lombardi": "mikelombardi81", "Rob Saker": "robsaker", "Andrew Banks": "andrew-banks-5b67697", "Francis Hart": "francis-hart-1837b311", "Greg Janota": "gjanota", "Kasey Uhlenhuth": "kasey-uhlenhuth", "Ray Coulstock": "raycoulstock", "Martine Clark": "martine-clark-6568071", "Nick Blewden": "nicholasblewden", "Ankith Ede": "ankithede", "Nicola de Cogan": "nicola-de-cogan-6601b025", "Hannah Cawthorne": "hannah-cawthorne-b679641", "Jake LaDuke": "jake-laduke-61a60587", "Molly Just-Behr": "mejust", "Charis Doidge": "charis-doidge-836474143", "Max Grender-Jones": "maxgrenderjones", "Anna Gatty": "anna-g-2bb130151", "Maddy Calvert": "madeline-calvert-professional"};
+// on Android (own website) a profile link asks Chrome to open the LinkedIn app, falling back to the web profile
+function liAttrs(p){
+  const url=li(p);
+  if(!FRAMED&&IS_ANDROID){
+    // profiles and searches both try the LinkedIn app first; Chrome falls back to the web link if the app can't open it
+    const intent="intent://"+url.replace(/^https:\/\//,"")+"#Intent;scheme=https;package=com.linkedin.android;S.browser_fallback_url="+encodeURIComponent(url)+";end";
+    return `href="${intent}"`;
+  }
+  return `href="${url}" target="_blank" rel="noopener"`;
+}
+const li=p=>LI_PROFILES[p.n]?"https://www.linkedin.com/in/"+LI_PROFILES[p.n]+"/":"https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent((p.n+" "+(p.c||"")).trim());
+const KEY="daiwt-lhr-2026-myday";
+// calendar export (London is on GMT = UTC on 11 Nov, so catalog times are UTC)
+const CALS={google:"Google Calendar",outlook:"Outlook.com",m365:"Microsoft 365"};
+let calP="google"; try{ const c=localStorage.getItem("daiwt-cal"); if(CALS[c]) calP=c; }catch(e){}
+const EXCEL_ADDR="ExCeL London (ICC), Royal Victoria Dock, London E16 1XL";
+const evTitle=s=>s.t+" · Data + AI World Tour London";
+const evLoc=s=>s.type==="evening"?"Pergola on the Wharf, Crossrail Place, Canary Wharf, London E14 5AR":`${roomName(s)}, ${EXCEL_ADDR}`;
+const evBody=s=>[s.d, s.spk.length?"Speakers: "+s.spk.map(p=>p.n+(p.c?" ("+p.c+")":"")).join(", "):"", s.type==="training"?"Hands-on lab: bring a charged laptop. Seat reservation required.":"", "Session page: "+s.url].filter(Boolean).join("\n\n");
+function calUrl(s){
+  const q=o=>Object.entries(o).map(([k,v])=>k+"="+(k==="dates"?v:encodeURIComponent(v))).join("&");
+  if(calP==="google") return "https://calendar.google.com/calendar/render?"+q({action:"TEMPLATE",text:evTitle(s),dates:`20261111T${s.s.replace(":","")}00Z/20261111T${s.e.replace(":","")}00Z`,details:evBody(s),location:evLoc(s)});
+  const host=calP==="m365"?"https://outlook.office.com":"https://outlook.live.com";
+  return host+"/calendar/0/action/compose?"+q({allday:"false",path:"/calendar/action/compose",rru:"addevent",subject:evTitle(s),startdt:`2026-11-11T${s.s}:00Z`,enddt:`2026-11-11T${s.e}:00Z`,location:evLoc(s),body:evBody(s)});
+}
+function csvFor(list){
+  const cell=v=>'"'+String(v).replace(/"/g,'""')+'"';
+  const loc=t=>{const [h,mm]=t.split(":").map(Number);return new Date(Date.UTC(2026,10,11,h,mm));};
+  const d=x=>String(x.getMonth()+1).padStart(2,"0")+"/"+String(x.getDate()).padStart(2,"0")+"/"+x.getFullYear();
+  const tm=x=>{let h=x.getHours();const ap=h>=12?"PM":"AM";h=h%12||12;return h+":"+String(x.getMinutes()).padStart(2,"0")+" "+ap;};
+  const rows=[["Subject","Start Date","Start Time","End Date","End Time","All Day Event","Description","Location","Private"]];
+  list.forEach(s=>{const a=loc(s.s),b=loc(s.e);rows.push([evTitle(s),d(a),tm(a),d(b),tm(b),"False",evBody(s),evLoc(s),"False"]);});
+  return rows.map(r=>r.map(cell).join(",")).join("\r\n");
+}
+let dl=null;
+
+let sel; try{ sel=new Set((JSON.parse(localStorage.getItem(KEY)||"[]")).filter(id=>byId[id])); }catch(e){ sel=new Set(); }
+let fType="all", fCo="", fQ="", fRoom="", fLvl="", fTech="";
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify([...sel])); }catch(e){} }
+const clashes=s=>[...sel].map(id=>byId[id]).filter(x=>x.id!==s.id&&overlaps(s,x));
+const sorted=()=>[...sel].map(id=>byId[id]).sort((a,b)=>m(a.s)-m(b.s)||m(a.e)-m(b.e));
+const techs=s=>(s.tech||"").split("·").map(x=>x.trim()).filter(Boolean);
+function matches(s){
+  if(fType!=="all"&&s.type!==fType) return false;
+  if(fCo&&!s.cos.includes(fCo)) return false;
+  if(fRoom&&s.r!==fRoom) return false;
+  if(fLvl&&s.lvl!==fLvl) return false;
+  if(fTech&&!techs(s).includes(fTech)) return false;
+  if(fQ){ const hay=(s.t+" "+(s.sp||"")+" "+(s.tech||"")+" "+s.spk.map(p=>p.n+" "+p.r+" "+p.c).join(" ")+" "+s.cos.join(" ")).toLowerCase(); if(!hay.includes(fQ)) return false; }
+  return true;
+}
+
+// header stats
+(function(){
+  const people=new Set(), cos=new Set();
+  S.forEach(s=>{s.spk.forEach(p=>people.add(p.n)); s.cos.forEach(c=>cos.add(c));});
+  const sessions=S.filter(s=>s.type!=="evening").length;
+  document.getElementById("stats").innerHTML=[[sessions,"sessions"],[6,"hands-on trainings"],[people.size,"speakers"],[cos.size,"companies"],[76,"sponsors"],[9,"rooms"]]
+    .map(([n,l])=>l==="speakers"?`<a class="stat" href="#speakers" style="color:inherit;text-decoration:none"><b>${n}</b><span style="text-decoration:underline">${l}</span></a>`:`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+  const counts={}; S.forEach(s=>s.cos.forEach(c=>counts[c]=(counts[c]||0)+1));
+  document.getElementById("co").innerHTML=`<option value="">All companies (${cos.size})</option>`+
+    Object.keys(counts).sort((a,b)=>a.localeCompare(b)).map(c=>`<option value="${esc(c)}">${esc(c)} (${counts[c]})</option>`).join("");
+  const lv={}; S.forEach(s=>{ if(s.lvl) lv[s.lvl]=(lv[s.lvl]||0)+1; });
+  document.getElementById("lvl").innerHTML=`<option value="">All levels</option>`+["Beginner","Intermediate","Advanced"].filter(l=>lv[l]).map(l=>`<option value="${l}">${l} (${lv[l]})</option>`).join("");
+  const tc={}; S.forEach(s=>techs(s).forEach(t=>tc[t]=(tc[t]||0)+1));
+  document.getElementById("tech").innerHTML=`<option value="">All technologies (${Object.keys(tc).length})</option>`+Object.keys(tc).sort((a,b)=>a.localeCompare(b)).map(t=>`<option value="${esc(t)}">${esc(t)} (${tc[t]})</option>`).join("");
+})();
+
+document.getElementById("ghead").innerHTML=`<div class="corner"></div>`+ROOMS.map(r=>`<div class="rh"><b>${esc(r.name)}</b><span>${esc(r.sub)}</span></div>`).join("");
+
+function renderGrid(){
+  let t=`<div class="tcol" style="height:${H}px">`;
+  for(let x=START;x<END;x+=30) t+=`<span class="tl" style="top:${(x-START)*PX+2}px">${fmt(x)}</span>`;
+  t+=`</div>`;
+  const cols=ROOMS.map(r=>`<div class="col" style="height:${H}px">`+S.filter(s=>s.r===r.id).map(s=>{
+    const top=(m(s.s)-START)*PX+1,h=(m(s.e)-m(s.s))*PX-3,short=(m(s.e)-m(s.s))<=25;
+    const lines=Math.max(1,Math.floor((h-8-(short?0:14))/14.4));
+    const on=sel.has(s.id),cl=clashes(s);
+    const cls=["blk","k-"+TYPES[s.type].k,short?"short":"",on?"sel":"",on&&cl.length?"clash":"",!on&&cl.length?"blocked":"",matches(s)?"":"dim"].join(" ");
+    return `<button class="${cls}" style="top:${top}px;height:${h}px" data-go="${s.id}" title="${esc(s.s+"–"+s.e+" · "+s.t)}"><span class="bt">${s.s}–${s.e}${s.run?" · "+s.run:""}</span><span class="bn" style="-webkit-line-clamp:${lines}">${esc(s.t)}</span></button>`;
+  }).join("")+`</div>`).join("");
+  const L=liveState();
+  const line=(L.day&&L.mins>=START&&L.mins<=END)?`<div class="nowline" style="top:${(L.mins-START)*PX}px"><span>Now ${fmt(L.mins)}</span></div>`:"";
+  document.getElementById("gbody").innerHTML=t+cols+line;
+}
+function card(s){
+  const ty=TYPES[s.type],on=sel.has(s.id),cl=clashes(s);
+  const spk=s.spk.length?`<ul class="spk">${s.spk.map(p=>`<li><span class="av">${esc(initials(p.n))}</span><a ${liAttrs(p)} title="Open ${esc(p.n)} on LinkedIn">${esc(p.n)}<span class="in">in</span></a><span class="role">${esc([p.r,p.c].filter(Boolean).join(" · ")||"Speaker")}</span></li>`).join("")}</ul>`
+    :(s.type==="evening"?"":`<div class="nospk">Speakers not yet listed in the catalog.</div>`);
+  return `<article class="card k-${ty.k}${on?" picked":""}" id="${s.slug}">
+    <div class="c-top">${liveTag(s)}<span class="pill">${esc(ty.label)}${s.run?" · "+esc(s.run):""}</span><span class="c-time">${s.s}–${s.e}</span><span>${esc(roomName(s))}</span>${s.lvl?`<span>${esc(s.lvl)}</span>`:""}</div>
+    <h4>${esc(s.t)}</h4>
+    ${s.sp?`<div class="spons">Sponsored by ${esc(s.sp)}</div>`:""}
+    <p class="c-d">${esc(s.d)}${s.tech?` · ${esc(s.tech)}`:""}</p>
+    ${s.cos.length?`<div class="cos">${s.cos.map(c=>`<button class="co" data-co="${esc(c)}" title="Show all sessions with ${esc(c)}">${esc(c)}</button>`).join("")}</div>`:""}
+    ${spk}
+    ${on&&cl.length?`<div class="warn">Overlaps with: ${cl.map(c=>esc(c.s+" "+c.t)).join("; ")}</div>`:""}
+    <div class="c-act"><button class="btn${on?" on":""}" data-pick="${s.id}" aria-pressed="${on}">${on?"✓ In my day":"+ Add to my day"}</button>${s.spk.length?`<button class="btn" data-copy="${s.id}" title="Copy speaker names and companies">Copy names</button>`:""}<button class="btn" data-link="${s.id}" title="Copy a link that opens this session">Copy link</button><a href="${s.url}" target="_blank" rel="noopener">${s.type==="training"?"Reserve seat in official catalog ↗":"Official session page ↗"}</a>${s.type==="evening"?`<a href="#after">Venue and directions ↓</a>`:""}</div>
+  </article>`;
+}
+function renderList(){
+  const vis=S.filter(matches), groups={};
+  vis.forEach(s=>{(groups[s.s]=groups[s.s]||[]).push(s);});
+  const keys=Object.keys(groups).sort((a,b)=>m(a)-m(b));
+  document.getElementById("slots").innerHTML=keys.length?keys.map(k=>`<div class="slot"><h3>${k} start</h3><div class="cards">${groups[k].map(card).join("")}</div></div>`).join(""):`<p class="none">No sessions match these filters.</p>`;
+  document.getElementById("count").textContent=`${vis.length} of ${S.length} shown`;
+}
+function renderDay(){
+  const list=sorted(),ol=document.getElementById("day");
+  if(!list.length) ol.innerHTML=`<li class="empty">Nothing added yet. Use “+ Add to my day” on any session.</li>`;
+  else{
+    let html="",prev=null;
+    list.forEach(s=>{
+      if(prev!==null&&m(s.s)-prev>=15&&s.type!=="evening") html+=`<li class="gap">Free ${fmt(prev)}–${s.s} · ${m(s.s)-prev} min</li>`;
+      const cl=clashes(s);
+      html+=`<li class="it k-${TYPES[s.type].k}${cl.length?" clash":""}"><button class="itmain" data-go="${s.id}"><span class="time">${s.s}–${s.e}${s.run?" · "+s.run:""}</span><span class="ttl">${esc(s.t)}</span><span class="room">${esc(roomName(s))}</span>${cl.length?`<span class="warn">Overlaps: ${cl.map(c=>esc(c.t)).join("; ")}</span>`:""}</button><a class="cal-a" href="${esc(calUrl(s))}" target="_blank" rel="noopener" title="Add to ${esc(CALS[calP])}" aria-label="Add ${esc(s.t)} to ${esc(CALS[calP])}">Add ↗</a><button class="rm" data-pick="${s.id}" aria-label="Remove ${esc(s.t)}">×</button></li>`;
+      prev=Math.max(prev??0,m(s.e));
+    });
+    ol.innerHTML=html;
+  }
+  document.getElementById("cal").hidden=!list.length;
+  document.querySelectorAll("[data-cal]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.cal===calP?"true":"false"));
+  const fab=document.getElementById("fab");
+  document.getElementById("fabn").textContent=list.length;
+  fab.classList.toggle("has-clash",list.some(s=>clashes(s).length));
+}
+function renderActive(){
+  const parts=[];
+  if(fType!=="all") parts.push(["type",TYPES[fType].label]);
+  if(fCo) parts.push(["co","Company: "+fCo]);
+  if(fRoom){ const r=ROOMS.find(x=>x.id===fRoom); parts.push(["room","Room: "+r.name+" · "+r.sub.split(" · ").pop()]); }
+  if(fLvl) parts.push(["lvl","Level: "+fLvl]);
+  if(fTech) parts.push(["tech","Technology: "+fTech]);
+  if(fQ) parts.push(["q","Search: “"+fQ+"”"]);
+  const el=document.getElementById("active");
+  el.hidden=!parts.length;
+  el.innerHTML=parts.map(([k,l])=>`<span class="af">${esc(l)}<button data-clear="${k}" aria-label="Remove filter ${esc(l)}">×</button></span>`).join("")+
+    (parts.length?`<button class="clearall" data-clear="all">Clear all filters</button>`:"");
+  document.querySelectorAll(".chip-r").forEach(g=>g.classList.toggle("on",g.dataset.room===fRoom));
+}
+function clearFilters(which){
+  if(which==="all"||which==="type") fType="all";
+  if(which==="all"||which==="co"){ fCo=""; document.getElementById("co").value=""; }
+  if(which==="all"||which==="room") fRoom="";
+  if(which==="all"||which==="q"){ fQ=""; document.getElementById("q").value=""; }
+  if(which==="all"||which==="lvl"){ fLvl=""; document.getElementById("lvl").value=""; }
+  if(which==="all"||which==="tech"){ fTech=""; document.getElementById("tech").value=""; }
+  syncChips(); render();
+}
+// live view: on 11 Nov London is on GMT, so London time = UTC
+let simNow=null;
+function liveState(){
+  const d=new Date(simNow??Date.now());
+  const t=d.getTime(), dayStart=Date.UTC(2026,10,11), dayEnd=Date.UTC(2026,10,12);
+  const day=t>=dayStart&&t<dayEnd, mins=d.getUTCHours()*60+d.getUTCMinutes();
+  if(!day) return {day:false,before:t<dayStart,days:Math.ceil((dayStart-t)/864e5),mins,live:[],next:[],nextAt:null};
+  const live=S.filter(s=>m(s.s)<=mins&&mins<m(s.e));
+  const ups=S.filter(s=>m(s.s)>mins).map(s=>m(s.s)); const nextAt=ups.length?Math.min(...ups):null;
+  return {day:true,mins,live,next:nextAt===null?[]:S.filter(s=>m(s.s)===nextAt),nextAt};
+}
+function liveTag(s){
+  const L=liveState(); if(!L.day) return "";
+  if(L.live.includes(s)) return `<span class="tagnow">On now</span>`;
+  if(L.next.includes(s)) return `<span class="tagnext">Up next</span>`;
+  return "";
+}
+function tzNote(){
+  const off=-new Date(Date.UTC(2026,10,11,12)).getTimezoneOffset()/60;
+  return off?`Times are London time (GMT). Your device is ${Math.abs(off)} h ${off>0?"ahead":"behind"}.`:"Times are London time (GMT).";
+}
+function chips(list){
+  const order=x=>(sel.has(x.id)?0:1);
+  return `<div class="lv-row">${[...list].sort((a,b)=>order(a)-order(b)).map(s=>`<button class="lv-chip k-${TYPES[s.type].k}" data-go="${s.id}"><b>${sel.has(s.id)?"✓ ":""}${esc(s.t)}</b><span>${s.s}–${s.e} · ${esc(roomName(s))}</span></button>`).join("")}</div>`;
+}
+function renderLive(fromSlider){
+  const L=liveState(), el=document.getElementById("live");
+  let main;
+  if(!L.day){
+    main=`<div class="lv-top"><h2><span class="dot"></span>Live view on the day</h2>${simNow===null?`<button class="btn" id="lvprev">Preview the live view</button>`:""}</div>
+      <p class="lv-note">${L.before?`On Wednesday 11 November${L.days>0?` (in ${L.days} day${L.days===1?"":"s"})`:""} this panel shows what’s on now and what starts next, with a “now” line on the timeline.`:"The event has ended. Thanks for using this agenda."} ${tzNote()}</p>`;
+  } else {
+    let body="";
+    if(L.live.length) body+=`<p class="lv-lbl">On now · ${fmt(L.mins)}</p>`+chips(L.live);
+    else if(L.mins<m("09:30")) body+=`<p class="lv-note">Doors are open. The day starts at 09:30 with the keynote in the ICC Auditorium.</p>`;
+    else if(L.mins>=m("22:30")) body+=`<p class="lv-note">That’s a wrap for Data + AI World Tour London.</p>`;
+    else body+=`<p class="lv-note">Nothing is running right now: time for the Expo, lunch or a coffee.</p>`;
+    if(L.next.length) body+=`<p class="lv-lbl">Up next · ${fmt(L.nextAt)} (in ${L.nextAt-L.mins} min)</p>`+chips(L.next);
+    main=`<div class="lv-top"><h2><span class="dot pulse"></span>${simNow!==null?"Live view (preview)":"Live now"}</h2><span class="lv-note">${tzNote()} Your picks are marked ✓.</span></div>${body}`;
+  }
+  if(fromSlider&&document.getElementById("lvmain")){
+    document.getElementById("lvmain").innerHTML=main;
+    document.getElementById("lvlab").textContent=`clock set to ${fmt(L.mins)}`;
+    return;
+  }
+  const prev=simNow!==null?`<div class="lv-prev"><label for="lvr"><b>Preview</b> · <span id="lvlab">clock set to ${fmt(L.mins)}</span></label><input id="lvr" type="range" min="540" max="1350" step="5" value="${L.mins}"><button class="btn" id="lvexit">Exit preview</button></div>`:"";
+  el.innerHTML=`<div id="lvmain" style="display:grid;gap:10px">${main}</div>${prev}`;
+}
+document.addEventListener("click",e=>{
+  if(e.target.closest("#lvprev")){ simNow=Date.UTC(2026,10,11,11,45); render(); return; }
+  if(e.target.closest("#lvexit")){ simNow=null; render(); return; }
+});
+document.addEventListener("input",e=>{
+  if(e.target.id!=="lvr") return;
+  const v=+e.target.value; simNow=Date.UTC(2026,10,11,Math.floor(v/60),v%60);
+  renderLive(true); renderGrid(); renderList();
+});
+setInterval(()=>{ if(simNow===null&&liveState().day) render(); },30000);
+function render(){ renderLive(); renderGrid(); renderList(); renderDay(); renderActive(); save(); }
+
+function scrollToEl(el){
+  if(!el) return;
+  const nav=document.querySelector(".qnav");
+  const off=()=> (nav?nav.getBoundingClientRect().height:0)+10;
+  const target=()=>Math.max(0,window.scrollY+el.getBoundingClientRect().top-off());
+  const smooth=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({top:target(),behavior:smooth?"smooth":"auto"});
+  setTimeout(()=>{ const d=el.getBoundingClientRect().top-off(); if(Math.abs(d)>12) window.scrollTo({top:target(),behavior:"auto"}); },smooth?650:60);
+}
+function go(id){
+  const s=byId[id];
+  if(!matches(s)) clearFilters("all");
+  const el=document.getElementById(s.slug); if(!el) return;
+  scrollToEl(el); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+  setTimeout(()=>el.classList.remove("flash"),1600);
+}
+function syncChips(){ document.querySelectorAll(".fchip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.type===fType?"true":"false")); }
+
+document.addEventListener("click",e=>{
+  const p=e.target.closest("[data-pick]"); if(p){ const id=p.dataset.pick; sel.has(id)?sel.delete(id):sel.add(id); render(); return; }
+  const g=e.target.closest("[data-go]"); if(g){ go(g.dataset.go); return; }
+  const x=e.target.closest("[data-clear]"); if(x){ clearFilters(x.dataset.clear); return; }
+  const rm=e.target.closest("[data-room]"); if(rm){ const id=rm.dataset.room; const keep=fRoom===id; fType="all";fCo="";fQ="";fLvl="";fTech=""; document.getElementById("lvl").value=""; document.getElementById("tech").value=""; document.getElementById("co").value=""; document.getElementById("q").value=""; syncChips(); fRoom=keep?"":id; render(); if(!keep) scrollToEl(document.getElementById("sessions")); return; }
+  const c=e.target.closest("[data-co]"); if(c){ fType="all";fRoom="";fQ="";fLvl="";fTech=""; document.getElementById("lvl").value=""; document.getElementById("tech").value=""; document.getElementById("q").value=""; syncChips(); fCo=c.dataset.co; document.getElementById("co").value=fCo; render(); scrollToEl(document.getElementById("sessions")); return; }
+  const f=e.target.closest(".fchip"); if(f){ fType=f.dataset.type; syncChips(); render(); return; }
+});
+document.getElementById("co").addEventListener("change",e=>{ fCo=e.target.value; render(); });
+document.getElementById("lvl").addEventListener("change",e=>{ fLvl=e.target.value; render(); });
+document.getElementById("tech").addEventListener("change",e=>{ fTech=e.target.value; render(); });
+document.getElementById("q").addEventListener("input",e=>{ fQ=e.target.value.trim().toLowerCase(); render(); });
+const drawer=document.getElementById("drawer"),fab=document.getElementById("fab");
+fab.addEventListener("click",()=>{ drawer.hidden=!drawer.hidden; fab.setAttribute("aria-expanded",String(!drawer.hidden)); });
+document.getElementById("dclose").addEventListener("click",()=>{ drawer.hidden=true; fab.setAttribute("aria-expanded","false"); });
+document.querySelectorAll(".chip-r").forEach(g=>g.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); g.dispatchEvent(new MouseEvent("click",{bubbles:true})); } }));
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!drawer.hidden){ drawer.hidden=true; fab.setAttribute("aria-expanded","false"); } });
+document.getElementById("clear").addEventListener("click",()=>{ sel=new Set(); render(); });
+document.getElementById("copy").addEventListener("click",async()=>{
+  const txt=["Data + AI World Tour London · Wed 11 Nov 2026 · ExCeL London",""].concat(sorted().map(s=>`${s.s}–${s.e}  ${s.t}${s.run?" ("+s.run+")":""} · ${roomName(s)}`)).join("\n");
+  const st=document.getElementById("status"),fb=document.getElementById("fallback");
+  try{ await navigator.clipboard.writeText(txt); st.textContent="Copied."; fb.hidden=true; }
+  catch(err){ fb.value=txt; fb.hidden=false; fb.select(); st.textContent="Copying was blocked here. Select the text below and copy it."; }
+});
+// sponsors (official sponsor catalog, 8 Nov 2026)
+const SPONSOR_DATA=`Advocate|Bloomberg|1791986760121001RcA2
+Advocate|Celebal Technologies|1677963363059001ksR8
+Advocate|DATAPAO|1719593738832001WiMt
+Advocate|Deloitte|1646871076260001amSE
+Advocate|EY|1743984531044001hQsi
+Advocate|Fivetran + dbt Labs|1642706095359001nTDR
+Advocate|Microsoft|1642706095010001n75h
+Advocate|MinIO|1767817644421001kHzw
+Advocate|NTT DATA|1752174466233001g98j
+Advocate|OpenAI|1773850318488001ZABR
+Advocate|Replit|1774472857616001vDb1
+Advocate|Salesforce|1696804092723001YWre
+Advocate|Sigma Computing|1646871075812001aOz3
+Innovator|Advancing Analytics|1695956253666001muXL
+Innovator|Amperity|1679593136267001QpQJ
+Innovator|Capgemini|1681339031402001WucG
+Innovator|Colibri Digital|1759521473153001Vc9T
+Innovator|Confluent|1646871075917001a3zP
+Innovator|definity|1740514002925001ZsFL
+Innovator|EPAM|1683293981545001WLwM
+Innovator|Google Cloud|1701714326551001KWwg
+Innovator|Omni|1746575352139001nb8V
+Innovator|SELECT by DoiT|1783550899791001lTlX
+Explorer|Anaconda|1752274179666001FRrs
+Explorer|AND Digital|1783717194246001iMlL
+Explorer|Bloomreach|1772220265225001PBO5
+Explorer|Celonis|1764041788017001caFB
+Explorer|Cognition|1788765354855001CRwg
+Explorer|Dun & Bradstreet|1709311635992001FOSk
+Explorer|EXL|1713049632803001SZDx
+Explorer|Flarion|1790243962895001hG6B
+Explorer|Hightouch|1646871076320001aXyU
+Explorer|Impetus Technologies|1646871075636001a4Pn
+Explorer|KMS Technology|1786124843550001xmRY
+Explorer|Kubrick Group|1721621056307001mXVo
+Explorer|Manuka|1754690565713001uuoT
+Explorer|Monte Carlo|1646871077174001aVqm
+Explorer|Neo4j|1679599790057001WDdb
+Explorer|Nimble Approach|1787914343010001j50J
+Explorer|Precisely|1642706095392001ntu1
+Explorer|Primus Connect|1725127783565001W5Ag
+Explorer|Reltio, an SAP company|1766533681286001rP0S
+Explorer|Retool|1707412530827001vTnM
+Explorer|Scale Factory|1792584915967001Nckj
+Explorer|Shelf|1722347874084001fBdW
+Explorer|Slalom|1646871076660001ag7P
+Explorer|Tealium|1738860574583001YHpE
+Explorer|Telefónica Tech|1757709522046001z2Ob
+Explorer|TheMathCompany|1742970162003001PtfG
+Explorer|Tsuga|1776372943760001WyHP
+Explorer|Unifeye|1755890646918001xTka
+Explorer|Unravel Data|1642706096263001n5ra
+Explorer|Validio|1706116084664001rVVj
+Explorer|ziggiz|1789038823172001mNHv
+Explorer|Zipher|1738266291826001WnQW
+Enthusiast|ActiveViam|1792757821161001bKqf
+Enthusiast|Aimpoint Digital|1712971569909001PvTi
+Enthusiast|Amazon Web Services|1692329767460001kCi0
+Enthusiast|Applexus|1766517393162001l4pi
+Enthusiast|Clear Strategy|1792004820140001H65f
+Enthusiast|Computomic|1721623601202001RJ6c
+Enthusiast|Dufrain|1725372654595001ucBZ
+Enthusiast|Exponentia.ai|1789036341623001b5c0
+Enthusiast|Hexaware Technologies|1789649895984001BJ7v
+Enthusiast|InterWorks Europe|1792004264266001AEIe
+Enthusiast|Koantek|1677626224901001fHoi
+Enthusiast|LatentView Analytics|1723199004264001xuyI
+Enthusiast|Polestar Analytics|1754071719590001YLNV
+Enthusiast|Protegrity|1679012592457001mLDT
+Enthusiast|Quest Software|1650323305173001fegS
+Enthusiast|Skyflo|1793793772371001IDsW
+Enthusiast|Syren|1760648751018001Xb0G
+Enthusiast|Ultra Tendency|1725520016027001XhQL
+Enthusiast|v4c.ai|1744041539433001h2wD
+Enthusiast|Vivanti Consulting x KADA|1785533953094001L8Sa
+Enthusiast|Wipro|1646871076376001ajfE
+Expo|Databricks Booth|1642706095085001nWg7`.split("\n").map(l=>{const [tier,n,id]=l.split("|");return {tier,n,url:"https://dataaisummit.databricks.com/flow/db/wt26lhr/sponsors/page/catalog/exhibitor/"+id};});
+function renderSponsors(){
+  const tiers=[["Advocate","Advocate sponsors"],["Innovator","Innovator sponsors"],["Explorer","Explorer sponsors"],["Enthusiast","Enthusiast sponsors"],["Expo","Also in the Expo"]];
+  document.getElementById("spons").innerHTML=tiers.map(([k,label])=>{
+    const list=SPONSOR_DATA.filter(x=>x.tier===k);
+    return `<div class="tier"><h3>${label} <span>${list.length}</span></h3><div class="spons-row">${list.map(x=>{
+      const ses=S.find(s=>s.sp&&s.sp===x.n);
+      return `<span class="spc${k==="Advocate"?" big":""}${k==="Expo"?" db":""}"><a href="${x.url}" target="_blank" rel="noopener" title="${esc(x.n)} on the official sponsor page">${esc(x.n)}</a>${ses?`<button data-go="${ses.id}" title="Go to ${esc(ses.t)}">${ses.s} session</button>`:""}</span>`;
+    }).join("")}</div></div>`;
+  }).join("");
+}
+renderSponsors();
+
+// speaker directory
+const PEOPLE=(()=>{const m=new Map();S.forEach(s=>s.spk.forEach(p=>{if(!m.has(p.n))m.set(p.n,{n:p.n,r:p.r,c:p.c,ses:[]});m.get(p.n).ses.push(s);}));
+  const key=p=>{const w=p.n.trim().split(/\s+/);return (w[w.length-1]+" "+p.n).toLowerCase();};
+  return [...m.values()].sort((a,b)=>key(a).localeCompare(key(b)));})();
+const letterOf=p=>{const w=p.n.trim().split(/\s+/);return (w[w.length-1][0]||"#").toUpperCase();};
+const nameLine=p=>p.n+(p.c?` (${p.c})`:"");
+let dirList=PEOPLE;
+function renderDir(){
+  const q=document.getElementById("dq").value.trim().toLowerCase();
+  dirList=PEOPLE.filter(p=>!q||(p.n+" "+p.r+" "+p.c+" "+p.ses.map(s=>s.t).join(" ")).toLowerCase().includes(q));
+  const groups={}; dirList.forEach(p=>{(groups[letterOf(p)]=groups[letterOf(p)]||[]).push(p);});
+  document.getElementById("az").innerHTML="ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(L=>groups[L]?`<a href="#sp-${L}">${L}</a>`:`<span aria-hidden="true">${L}</span>`).join("");
+  document.getElementById("dir").innerHTML=Object.keys(groups).sort().map(L=>`<h3 class="letter" id="sp-${L}">${L}</h3><div class="people">${groups[L].map(p=>`<div class="person k-b"><span class="av">${esc(initials(p.n))}</span><span><a class="nm" ${liAttrs(p)} title="Open ${esc(p.n)} on LinkedIn">${esc(p.n)}<span class="in">in</span></a><br><span class="role">${esc([p.r,p.c].filter(Boolean).join(" · ")||"Speaker")}</span></span><div class="ses">${p.ses.map(s=>`<button data-go="${s.id}"><b>${s.s}</b>${esc(s.t)}</button>`).join("")}</div></div>`).join("")}</div>`).join("")||`<p class="none">No speakers match this search.</p>`;
+  document.getElementById("dcount").textContent=`${dirList.length} of ${PEOPLE.length} speakers`;
+}
+async function copyText(txt,btn,label){
+  try{ await navigator.clipboard.writeText(txt); btn.textContent="Copied ✓"; }
+  catch(err){ btn.textContent="Copy blocked here"; }
+  setTimeout(()=>{btn.textContent=label;},1800);
+}
+document.getElementById("dq").addEventListener("input",renderDir);
+document.getElementById("dcopy").addEventListener("click",e=>copyText(dirList.map(nameLine).join(", "),e.currentTarget,"Copy these names"));
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-copy]"); if(!b) return;
+  copyText(byId[b.dataset.copy].spk.map(nameLine).join(", "),b,"Copy names");
+});
+// deep links: #<session-name> opens that session
+const bySlug=Object.fromEntries(S.map(s=>[s.slug,s.id]));
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-link]"); if(!b) return;
+  const s=byId[b.dataset.link];
+  try{ history.replaceState(null,"","#"+s.slug); }catch(err){}
+  copyText(SHARE_URL+"#"+s.slug,b,"Copy link");
+});
+function openFromHash(){
+  const h=(location.hash||"").slice(1);
+  if(bySlug[h]) setTimeout(()=>go(bySlug[h]),60);
+}
+window.addEventListener("hashchange",openFromHash);
+renderDir();
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-cal]"); if(!c) return;
+  calP=c.dataset.cal; try{ localStorage.setItem("daiwt-cal",calP); }catch(err){} renderDay();
+});
+document.getElementById("csv").addEventListener("click",async()=>{
+  const st=document.getElementById("status");
+  if(!dl&&!FRAMED){
+    try{ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([csvFor(sorted())],{type:"text/csv"})); a.download="daiwt-london-2026-my-day.csv"; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000); st.textContent="File saved. Import it into your calendar using the steps above."; }
+    catch(err){ st.textContent="Downloading isn’t available here. Use the “Add ↗” links instead."; }
+    return;
+  }
+  if(!dl){ st.textContent="Downloading isn’t available in this view. Use the “Add ↗” links instead."; return; }
+  try{ await dl.save({filename:"daiwt-london-2026-my-day.csv",data:csvFor(sorted())}); st.textContent="File saved. Import it into your calendar using the steps above."; }
+  catch(err){ st.textContent=(err&&err.code==="declined")?"Download cancelled.":"Downloading isn’t available here. Use the “Add ↗” links instead."; }
+});
+if(!FRAMED) document.getElementById("bulk").hidden=false;
+try{
+  if(window.claude&&typeof window.claude.use==="function"){
+    window.claude.use("downloads").then(x=>{ dl=x; document.getElementById("bulk").hidden=!x; }).catch(()=>{});
+  }
+}catch(e){}
+// pinch / ctrl-wheel / button zoom for the timeline and the two maps
+function zoomable(key,box,target,min,max){
+  const ctl=document.querySelector(`[data-zoom="${key}"]`), lab=ctl.querySelector("span");
+  let z=1,d0=0,z0=1;
+  const apply=nz=>{
+    nz=Math.min(max,Math.max(min,Math.round(nz*100)/100)); const r=nz/z; z=nz;
+    target.style.zoom=z; lab.textContent=Math.round(z*100)+"%";
+    box.scrollLeft*=r; box.scrollTop*=r;
+  };
+  const dist=t=>Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY);
+  box.addEventListener("touchstart",e=>{ if(e.touches.length===2){ e.stopPropagation(); d0=dist(e.touches); z0=z; } },{passive:true});
+  box.addEventListener("touchmove",e=>{ if(e.touches.length===2&&d0){ e.preventDefault(); e.stopPropagation(); apply(z0*dist(e.touches)/d0); } },{passive:false});
+  box.addEventListener("touchend",e=>{ if(e.touches.length<2) d0=0; },{passive:true});
+  box.addEventListener("wheel",e=>{ if(e.ctrlKey){ e.preventDefault(); e.stopPropagation(); apply(z*(e.deltaY<0?1.08:1/1.08)); } },{passive:false});
+  ctl.addEventListener("click",e=>{ const b=e.target.closest("[data-z]"); if(!b) return; const v=b.dataset.z; apply(v==="+"?z*1.25:v==="-"?z/1.25:1); });
+}
+zoomable("grid",document.getElementById("gridbox"),document.getElementById("gzoom"),0.3,2.5);
+zoomable("fp",document.getElementById("fpbox"),document.querySelector("#fpbox svg"),0.6,3);
+zoomable("am",document.getElementById("ambox"),document.querySelector("#ambox svg"),0.6,3);
+// whole-page zoom: two-finger pinch anywhere, ctrl/trackpad pinch, or the − / + in the top bar
+(function(){
+  const app=document.getElementById("app"), lab=document.getElementById("pzl");
+  let pz=1,d0=0,z0=1;
+  try{ localStorage.removeItem("daiwt-pz"); }catch(e){}
+  const apply=(nz,save)=>{
+    nz=Math.min(1.8,Math.max(0.35,Math.round(nz*100)/100)); const r=nz/pz; pz=nz;
+    app.style.zoom=pz; lab.textContent=Math.round(pz*100)+"%";
+    if(r!==1) window.scrollTo(window.scrollX*r, window.scrollY*r);
+  };
+  apply(pz,false);
+  const dist=t=>Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY);
+  document.addEventListener("touchstart",e=>{ if(e.touches.length===2){ d0=dist(e.touches); z0=pz; } },{passive:true});
+  document.addEventListener("touchmove",e=>{ if(e.touches.length===2&&d0){ e.preventDefault(); apply(z0*dist(e.touches)/d0,false); } },{passive:false});
+  document.addEventListener("touchend",e=>{ if(e.touches.length<2&&d0){ d0=0; apply(pz,true); } },{passive:true});
+  document.addEventListener("wheel",e=>{ if(e.ctrlKey){ e.preventDefault(); apply(pz*(e.deltaY<0?1.06:1/1.06),true); } },{passive:false});
+  document.querySelector(".pz").addEventListener("click",e=>{ const b=e.target.closest("[data-pz]"); if(b) apply(b.dataset.pz==="+"?pz*1.15:b.dataset.pz==="-"?pz/1.15:1,true); });
+})();
+// floating "back to timeline": visible once the timeline is scrolled out of view
+(function(){
+  const btn=document.getElementById("totop"), tl=document.getElementById("glance");
+  const upd=()=>{ btn.hidden=tl.getBoundingClientRect().bottom>0; };
+  window.addEventListener("scroll",upd,{passive:true}); window.addEventListener("resize",upd); upd();
+  document.addEventListener("click",e=>{
+    const a=e.target.closest('a[href^="#"]'); if(!a) return;
+    const id=a.getAttribute("href").slice(1); const el=id&&document.getElementById(id); if(!el) return;
+    e.preventDefault();
+    if(el.tagName==="DETAILS") el.open=true;
+    scrollToEl(el);
+    try{ history.replaceState(null,"","#"+id); }catch(err){}
+  });
+})();
+render();
+openFromHash();
+</script>
+</body>
+</html>
